@@ -48,28 +48,3 @@
 2.  实验并验证了**随机裁剪**相较于传统缩放方法，在保留微小特征方面的显著优势。
 3.  设计并实现了一种**针对极端类别不均衡场景的复合损失函数**，有效提升了模型对稀有缺陷的敏感度。
 4.  实现了一套基于**滑窗推理**的部署方案，确保了从训练到应用的端到端高保真度。
-
-#### **四、 适合发表的会议/期刊方向建议**
-
-本项目的核心价值在于其**强大的应用性**和**解决实际工业问题的完整性**，而非提出全新的理论模型。因此，投稿方向应重点关注**应用类、工程类和计算机视觉的实践类**顶级或知名会议/期刊。
-
-**1. 顶级目标 (难度高，但可作为目标)：**
-*   **WACV (IEEE Workshop on Applications of Computer Vision):** 这是顶级计算机视觉会议中，最注重“应用”的会议，与本项目气质非常契合。
-*   **ICPR (International Conference on Pattern Recognition):** 模式识别领域的顶级会议，同样欢迎高质量的应用研究。
-
-**2. 核心目标 (契合度最高，成功率较大)：**
-*   **计算机视觉与图像处理领域的应用型期刊：**
-    *   *Journal of Real-Time Image Processing*
-    *   *IET Image Processing*
-    *   *Journal of Electronic Imaging*
-*   **工业自动化与智能制造领域的顶级期刊：**
-    *   **IEEE Transactions on Industrial Informatics (TII):** 极佳选择，非常看重在工业场景中落地的 AI 技术。
-    *   **IEEE Transactions on Automation Science and Engineering (T-ASE):**
-    *   *Journal of Manufacturing Systems*
-    *   *Robotics and Computer-Integrated Manufacturing*
-
-**3. 其他相关方向：**
-*   **机器视觉领域的专门会议：** 例如 MVA (Machine Vision and Applications)。
-*   **国内高质量的计算机/自动化核心期刊。**
-
-**建议：** 在撰写论文时，应重点突出您在**解决实际问题（细节丢失、类别不均衡）时所采用的一系列策略（随机裁剪、复合损失函数、滑窗推理）**，并通过**对比实验**（例如，缩放 vs. 裁剪，标准损失 vs. 复合损失）来量化地证明您方法的优越性。这会使您的工作具有非常强的说服力。
