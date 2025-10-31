@@ -11,10 +11,10 @@ import segmentation_models_pytorch as smp
 # --- 1. 配置 (Configuration) ---
 class INFERENCE_CFG:
     # --- 【需要您修改】 ---
-    IMAGE_PATH = "test.png"
+    IMAGE_PATH = "test2.png"
     # 指向您用【終極腳本】訓練出的模型權重
     MODEL_PATH = "best_model_compat.pth"
-    OUTPUT_PATH = "result.png"
+    OUTPUT_PATH = "result2.png"
 
     # --- 【滑窗推理的核心參數】 ---
     # 窗口大小，必須與您訓練時的 CROP_SIZE 一致

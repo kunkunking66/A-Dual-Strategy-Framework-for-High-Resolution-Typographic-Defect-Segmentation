@@ -1,0 +1,2980 @@
+root@autodl-container-7f044babfc-b83e0aaa:~/autodl-tmp# python experiment_architecture_comparison.py
+实验设备: cuda
+正在创建固定的数据集划分...
+数据集划分完毕: 10 训练, 3 验证。
+
+==================== 正在开始架构 'DeepLabV3Plus' 的实验 ====================
+Pre-slicing images into patches...
+Pre-slicing images into patches...
+/root/miniconda3/lib/python3.10/site-packages/segmentation_models_pytorch/encoders/__init__.py:136: UserWarning: Error loading resnet101 `imagenet` weights from Hugging Face Hub, trying loading from original url...
+  warnings.warn(message, UserWarning)
+--- [架构: DeepLabV3Plus] Epoch 1/200 ---
+Val Loss: 0.4276 | Defect IoU: 0.0140
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.0140)
+--- [架构: DeepLabV3Plus] Epoch 2/200 ---
+Val Loss: 0.3510 | Defect IoU: 0.0229
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.0229)
+--- [架构: DeepLabV3Plus] Epoch 3/200 ---
+Val Loss: 0.3123 | Defect IoU: 0.0351
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.0351)
+--- [架构: DeepLabV3Plus] Epoch 4/200 ---
+Val Loss: 0.3128 | Defect IoU: 0.0565
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.0565)
+--- [架构: DeepLabV3Plus] Epoch 5/200 ---
+Val Loss: 0.2865 | Defect IoU: 0.0460
+--- [架构: DeepLabV3Plus] Epoch 6/200 ---
+Val Loss: 0.2804 | Defect IoU: 0.0898
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.0898)
+--- [架构: DeepLabV3Plus] Epoch 7/200 ---
+Val Loss: 0.2794 | Defect IoU: 0.1236
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.1236)
+--- [架构: DeepLabV3Plus] Epoch 8/200 ---
+Val Loss: 0.2690 | Defect IoU: 0.1197
+--- [架构: DeepLabV3Plus] Epoch 9/200 ---
+Val Loss: 0.2688 | Defect IoU: 0.1214
+--- [架构: DeepLabV3Plus] Epoch 10/200 ---
+Val Loss: 0.2704 | Defect IoU: 0.1355
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.1355)
+--- [架构: DeepLabV3Plus] Epoch 11/200 ---
+Val Loss: 0.2914 | Defect IoU: 0.1149
+--- [架构: DeepLabV3Plus] Epoch 12/200 ---
+Val Loss: 0.2819 | Defect IoU: 0.1109
+--- [架构: DeepLabV3Plus] Epoch 13/200 ---
+Val Loss: 0.2901 | Defect IoU: 0.1215
+--- [架构: DeepLabV3Plus] Epoch 14/200 ---
+Val Loss: 0.2760 | Defect IoU: 0.0983
+--- [架构: DeepLabV3Plus] Epoch 15/200 ---
+Val Loss: 0.2771 | Defect IoU: 0.1474
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.1474)
+--- [架构: DeepLabV3Plus] Epoch 16/200 ---
+Val Loss: 0.2851 | Defect IoU: 0.2192
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2192)
+--- [架构: DeepLabV3Plus] Epoch 17/200 ---
+Val Loss: 0.2674 | Defect IoU: 0.1581
+--- [架构: DeepLabV3Plus] Epoch 18/200 ---
+Val Loss: 0.2814 | Defect IoU: 0.2095
+--- [架构: DeepLabV3Plus] Epoch 19/200 ---
+Val Loss: 0.2882 | Defect IoU: 0.2315
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2315)
+--- [架构: DeepLabV3Plus] Epoch 20/200 ---
+Val Loss: 0.2778 | Defect IoU: 0.2418
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2418)
+--- [架构: DeepLabV3Plus] Epoch 21/200 ---
+Val Loss: 0.2796 | Defect IoU: 0.2355
+--- [架构: DeepLabV3Plus] Epoch 22/200 ---
+Val Loss: 0.2781 | Defect IoU: 0.2350
+--- [架构: DeepLabV3Plus] Epoch 23/200 ---
+Val Loss: 0.2796 | Defect IoU: 0.2436
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2436)
+--- [架构: DeepLabV3Plus] Epoch 24/200 ---
+Val Loss: 0.2817 | Defect IoU: 0.2345
+--- [架构: DeepLabV3Plus] Epoch 25/200 ---
+Val Loss: 0.2835 | Defect IoU: 0.2521
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2521)
+--- [架构: DeepLabV3Plus] Epoch 26/200 ---
+Val Loss: 0.2825 | Defect IoU: 0.2444
+--- [架构: DeepLabV3Plus] Epoch 27/200 ---
+Val Loss: 0.2884 | Defect IoU: 0.2413
+--- [架构: DeepLabV3Plus] Epoch 28/200 ---
+Val Loss: 0.2912 | Defect IoU: 0.2401
+--- [架构: DeepLabV3Plus] Epoch 29/200 ---
+Val Loss: 0.2858 | Defect IoU: 0.2428
+--- [架构: DeepLabV3Plus] Epoch 30/200 ---
+Val Loss: 0.2874 | Defect IoU: 0.2434
+--- [架构: DeepLabV3Plus] Epoch 31/200 ---
+Val Loss: 0.2858 | Defect IoU: 0.2559
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2559)
+--- [架构: DeepLabV3Plus] Epoch 32/200 ---
+Val Loss: 0.2869 | Defect IoU: 0.2106
+--- [架构: DeepLabV3Plus] Epoch 33/200 ---
+Val Loss: 0.3097 | Defect IoU: 0.2187
+--- [架构: DeepLabV3Plus] Epoch 34/200 ---
+Val Loss: 0.2751 | Defect IoU: 0.2567
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2567)
+--- [架构: DeepLabV3Plus] Epoch 35/200 ---
+Val Loss: 0.3059 | Defect IoU: 0.2356
+--- [架构: DeepLabV3Plus] Epoch 36/200 ---
+Val Loss: 0.2983 | Defect IoU: 0.2460
+--- [架构: DeepLabV3Plus] Epoch 37/200 ---
+Val Loss: 0.3017 | Defect IoU: 0.2588
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2588)
+--- [架构: DeepLabV3Plus] Epoch 38/200 ---
+Val Loss: 0.2999 | Defect IoU: 0.2536
+--- [架构: DeepLabV3Plus] Epoch 39/200 ---
+Val Loss: 0.2912 | Defect IoU: 0.2653
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2653)
+--- [架构: DeepLabV3Plus] Epoch 40/200 ---
+Val Loss: 0.2835 | Defect IoU: 0.2701
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2701)
+--- [架构: DeepLabV3Plus] Epoch 41/200 ---
+Val Loss: 0.2805 | Defect IoU: 0.2674
+--- [架构: DeepLabV3Plus] Epoch 42/200 ---
+Val Loss: 0.3002 | Defect IoU: 0.2326
+--- [架构: DeepLabV3Plus] Epoch 43/200 ---
+Val Loss: 0.3002 | Defect IoU: 0.2650
+--- [架构: DeepLabV3Plus] Epoch 44/200 ---
+Val Loss: 0.2951 | Defect IoU: 0.2580
+--- [架构: DeepLabV3Plus] Epoch 45/200 ---
+Val Loss: 0.2926 | Defect IoU: 0.2724
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2724)
+--- [架构: DeepLabV3Plus] Epoch 46/200 ---
+Val Loss: 0.2898 | Defect IoU: 0.2663
+--- [架构: DeepLabV3Plus] Epoch 47/200 ---
+Val Loss: 0.3064 | Defect IoU: 0.2610
+--- [架构: DeepLabV3Plus] Epoch 48/200 ---
+Val Loss: 0.2941 | Defect IoU: 0.2572
+--- [架构: DeepLabV3Plus] Epoch 49/200 ---
+Val Loss: 0.3007 | Defect IoU: 0.2685
+--- [架构: DeepLabV3Plus] Epoch 50/200 ---
+Val Loss: 0.2916 | Defect IoU: 0.2788
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2788)
+--- [架构: DeepLabV3Plus] Epoch 51/200 ---
+Val Loss: 0.2814 | Defect IoU: 0.2855
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2855)
+--- [架构: DeepLabV3Plus] Epoch 52/200 ---
+Val Loss: 0.2911 | Defect IoU: 0.2723
+--- [架构: DeepLabV3Plus] Epoch 53/200 ---
+Val Loss: 0.2903 | Defect IoU: 0.2739
+--- [架构: DeepLabV3Plus] Epoch 54/200 ---
+Val Loss: 0.3038 | Defect IoU: 0.2730
+--- [架构: DeepLabV3Plus] Epoch 55/200 ---
+Val Loss: 0.2969 | Defect IoU: 0.2680
+--- [架构: DeepLabV3Plus] Epoch 56/200 ---
+Val Loss: 0.2958 | Defect IoU: 0.2743
+--- [架构: DeepLabV3Plus] Epoch 57/200 ---
+Val Loss: 0.3006 | Defect IoU: 0.2707
+--- [架构: DeepLabV3Plus] Epoch 58/200 ---
+Val Loss: 0.3019 | Defect IoU: 0.2700
+--- [架构: DeepLabV3Plus] Epoch 59/200 ---
+Val Loss: 0.3103 | Defect IoU: 0.2668
+--- [架构: DeepLabV3Plus] Epoch 60/200 ---
+Val Loss: 0.3169 | Defect IoU: 0.2585
+--- [架构: DeepLabV3Plus] Epoch 61/200 ---
+Val Loss: 0.3080 | Defect IoU: 0.2684
+--- [架构: DeepLabV3Plus] Epoch 62/200 ---
+Val Loss: 0.3042 | Defect IoU: 0.2717
+--- [架构: DeepLabV3Plus] Epoch 63/200 ---
+Val Loss: 0.3113 | Defect IoU: 0.2693
+--- [架构: DeepLabV3Plus] Epoch 64/200 ---
+Val Loss: 0.3086 | Defect IoU: 0.2703
+--- [架构: DeepLabV3Plus] Epoch 65/200 ---
+Val Loss: 0.3082 | Defect IoU: 0.2619
+--- [架构: DeepLabV3Plus] Epoch 66/200 ---
+Val Loss: 0.3123 | Defect IoU: 0.2644
+--- [架构: DeepLabV3Plus] Epoch 67/200 ---
+Val Loss: 0.3084 | Defect IoU: 0.2686
+--- [架构: DeepLabV3Plus] Epoch 68/200 ---
+Val Loss: 0.3143 | Defect IoU: 0.2618
+--- [架构: DeepLabV3Plus] Epoch 69/200 ---
+Val Loss: 0.3082 | Defect IoU: 0.2694
+--- [架构: DeepLabV3Plus] Epoch 70/200 ---
+Val Loss: 0.3092 | Defect IoU: 0.2660
+--- [架构: DeepLabV3Plus] Epoch 71/200 ---
+Val Loss: 0.3212 | Defect IoU: 0.2443
+--- [架构: DeepLabV3Plus] Epoch 72/200 ---
+Val Loss: 0.3169 | Defect IoU: 0.2605
+--- [架构: DeepLabV3Plus] Epoch 73/200 ---
+Val Loss: 0.3282 | Defect IoU: 0.2486
+--- [架构: DeepLabV3Plus] Epoch 74/200 ---
+Val Loss: 0.3280 | Defect IoU: 0.2460
+--- [架构: DeepLabV3Plus] Epoch 75/200 ---
+Val Loss: 0.3246 | Defect IoU: 0.2653
+--- [架构: DeepLabV3Plus] Epoch 76/200 ---
+Val Loss: 0.3180 | Defect IoU: 0.2466
+--- [架构: DeepLabV3Plus] Epoch 77/200 ---
+Val Loss: 0.3674 | Defect IoU: 0.1940
+--- [架构: DeepLabV3Plus] Epoch 78/200 ---
+Val Loss: 0.3083 | Defect IoU: 0.2554
+--- [架构: DeepLabV3Plus] Epoch 79/200 ---
+Val Loss: 0.3278 | Defect IoU: 0.2517
+--- [架构: DeepLabV3Plus] Epoch 80/200 ---
+Val Loss: 0.3351 | Defect IoU: 0.2422
+--- [架构: DeepLabV3Plus] Epoch 81/200 ---
+Val Loss: 0.3238 | Defect IoU: 0.2508
+--- [架构: DeepLabV3Plus] Epoch 82/200 ---
+Val Loss: 0.3373 | Defect IoU: 0.2353
+--- [架构: DeepLabV3Plus] Epoch 83/200 ---
+Val Loss: 0.3111 | Defect IoU: 0.2610
+--- [架构: DeepLabV3Plus] Epoch 84/200 ---
+Val Loss: 0.3269 | Defect IoU: 0.2567
+--- [架构: DeepLabV3Plus] Epoch 85/200 ---
+Val Loss: 0.3090 | Defect IoU: 0.2736
+--- [架构: DeepLabV3Plus] Epoch 86/200 ---
+Val Loss: 0.2891 | Defect IoU: 0.2883
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2883)
+--- [架构: DeepLabV3Plus] Epoch 87/200 ---
+Val Loss: 0.3673 | Defect IoU: 0.2550
+--- [架构: DeepLabV3Plus] Epoch 88/200 ---
+Val Loss: 0.3201 | Defect IoU: 0.2691
+--- [架构: DeepLabV3Plus] Epoch 89/200 ---
+Val Loss: 0.3233 | Defect IoU: 0.2750
+--- [架构: DeepLabV3Plus] Epoch 90/200 ---
+Val Loss: 0.3317 | Defect IoU: 0.2502
+--- [架构: DeepLabV3Plus] Epoch 91/200 ---
+Val Loss: 0.3146 | Defect IoU: 0.2664
+--- [架构: DeepLabV3Plus] Epoch 92/200 ---
+Val Loss: 0.3095 | Defect IoU: 0.2747
+--- [架构: DeepLabV3Plus] Epoch 93/200 ---
+Val Loss: 0.3066 | Defect IoU: 0.2939
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2939)
+--- [架构: DeepLabV3Plus] Epoch 94/200 ---
+Val Loss: 0.3305 | Defect IoU: 0.2565
+--- [架构: DeepLabV3Plus] Epoch 95/200 ---
+Val Loss: 0.3442 | Defect IoU: 0.2474
+--- [架构: DeepLabV3Plus] Epoch 96/200 ---
+Val Loss: 0.3392 | Defect IoU: 0.2496
+--- [架构: DeepLabV3Plus] Epoch 97/200 ---
+Val Loss: 0.3100 | Defect IoU: 0.2738
+--- [架构: DeepLabV3Plus] Epoch 98/200 ---
+Val Loss: 0.3367 | Defect IoU: 0.2454
+--- [架构: DeepLabV3Plus] Epoch 99/200 ---
+Val Loss: 0.3437 | Defect IoU: 0.2532
+--- [架构: DeepLabV3Plus] Epoch 100/200 ---
+Val Loss: 0.3420 | Defect IoU: 0.2529
+--- [架构: DeepLabV3Plus] Epoch 101/200 ---
+Val Loss: 0.3291 | Defect IoU: 0.2734
+--- [架构: DeepLabV3Plus] Epoch 102/200 ---
+Val Loss: 0.3357 | Defect IoU: 0.2712
+--- [架构: DeepLabV3Plus] Epoch 103/200 ---
+Val Loss: 0.3232 | Defect IoU: 0.2747
+--- [架构: DeepLabV3Plus] Epoch 104/200 ---
+Val Loss: 0.3403 | Defect IoU: 0.2514
+--- [架构: DeepLabV3Plus] Epoch 105/200 ---
+Val Loss: 0.3450 | Defect IoU: 0.2556
+--- [架构: DeepLabV3Plus] Epoch 106/200 ---
+Val Loss: 0.3309 | Defect IoU: 0.2719
+--- [架构: DeepLabV3Plus] Epoch 107/200 ---
+Val Loss: 0.3415 | Defect IoU: 0.2634
+--- [架构: DeepLabV3Plus] Epoch 108/200 ---
+Val Loss: 0.3406 | Defect IoU: 0.2684
+--- [架构: DeepLabV3Plus] Epoch 109/200 ---
+Val Loss: 0.3566 | Defect IoU: 0.2554
+--- [架构: DeepLabV3Plus] Epoch 110/200 ---
+Val Loss: 0.3313 | Defect IoU: 0.2800
+--- [架构: DeepLabV3Plus] Epoch 111/200 ---
+Val Loss: 0.3223 | Defect IoU: 0.2886
+--- [架构: DeepLabV3Plus] Epoch 112/200 ---
+Val Loss: 0.3399 | Defect IoU: 0.2687
+--- [架构: DeepLabV3Plus] Epoch 113/200 ---
+Val Loss: 0.3444 | Defect IoU: 0.2591
+--- [架构: DeepLabV3Plus] Epoch 114/200 ---
+Val Loss: 0.3245 | Defect IoU: 0.2882
+--- [架构: DeepLabV3Plus] Epoch 115/200 ---
+Val Loss: 0.3377 | Defect IoU: 0.2814
+--- [架构: DeepLabV3Plus] Epoch 116/200 ---
+Val Loss: 0.3298 | Defect IoU: 0.2773
+--- [架构: DeepLabV3Plus] Epoch 117/200 ---
+Val Loss: 0.3381 | Defect IoU: 0.2822
+--- [架构: DeepLabV3Plus] Epoch 118/200 ---
+Val Loss: 0.3534 | Defect IoU: 0.2549
+--- [架构: DeepLabV3Plus] Epoch 119/200 ---
+Val Loss: 0.3348 | Defect IoU: 0.2698
+--- [架构: DeepLabV3Plus] Epoch 120/200 ---
+Val Loss: 0.3372 | Defect IoU: 0.2770
+--- [架构: DeepLabV3Plus] Epoch 121/200 ---
+Val Loss: 0.3522 | Defect IoU: 0.2547
+--- [架构: DeepLabV3Plus] Epoch 122/200 ---
+Val Loss: 0.3392 | Defect IoU: 0.2658
+--- [架构: DeepLabV3Plus] Epoch 123/200 ---
+Val Loss: 0.3269 | Defect IoU: 0.2736
+--- [架构: DeepLabV3Plus] Epoch 124/200 ---
+Val Loss: 0.3341 | Defect IoU: 0.2718
+--- [架构: DeepLabV3Plus] Epoch 125/200 ---
+Val Loss: 0.3376 | Defect IoU: 0.2746
+--- [架构: DeepLabV3Plus] Epoch 126/200 ---
+Val Loss: 0.3446 | Defect IoU: 0.2654
+--- [架构: DeepLabV3Plus] Epoch 127/200 ---
+Val Loss: 0.3539 | Defect IoU: 0.2545
+--- [架构: DeepLabV3Plus] Epoch 128/200 ---
+Val Loss: 0.3446 | Defect IoU: 0.2666
+--- [架构: DeepLabV3Plus] Epoch 129/200 ---
+Val Loss: 0.3400 | Defect IoU: 0.2636
+--- [架构: DeepLabV3Plus] Epoch 130/200 ---
+Val Loss: 0.3408 | Defect IoU: 0.2602
+--- [架构: DeepLabV3Plus] Epoch 131/200 ---
+Val Loss: 0.3491 | Defect IoU: 0.2547
+--- [架构: DeepLabV3Plus] Epoch 132/200 ---
+Val Loss: 0.3331 | Defect IoU: 0.2712
+--- [架构: DeepLabV3Plus] Epoch 133/200 ---
+Val Loss: 0.3413 | Defect IoU: 0.2623
+--- [架构: DeepLabV3Plus] Epoch 134/200 ---
+Val Loss: 0.3400 | Defect IoU: 0.2691
+--- [架构: DeepLabV3Plus] Epoch 135/200 ---
+Val Loss: 0.3400 | Defect IoU: 0.2654
+--- [架构: DeepLabV3Plus] Epoch 136/200 ---
+Val Loss: 0.3418 | Defect IoU: 0.2616
+--- [架构: DeepLabV3Plus] Epoch 137/200 ---
+Val Loss: 0.3353 | Defect IoU: 0.2694
+--- [架构: DeepLabV3Plus] Epoch 138/200 ---
+Val Loss: 0.3382 | Defect IoU: 0.2701
+--- [架构: DeepLabV3Plus] Epoch 139/200 ---
+Val Loss: 0.3430 | Defect IoU: 0.2628
+--- [架构: DeepLabV3Plus] Epoch 140/200 ---
+Val Loss: 0.3378 | Defect IoU: 0.2634
+--- [架构: DeepLabV3Plus] Epoch 141/200 ---
+Val Loss: 0.3434 | Defect IoU: 0.2622
+--- [架构: DeepLabV3Plus] Epoch 142/200 ---
+Val Loss: 0.3374 | Defect IoU: 0.2634
+--- [架构: DeepLabV3Plus] Epoch 143/200 ---
+Val Loss: 0.3392 | Defect IoU: 0.2636
+--- [架构: DeepLabV3Plus] Epoch 144/200 ---
+Val Loss: 0.3438 | Defect IoU: 0.2612
+--- [架构: DeepLabV3Plus] Epoch 145/200 ---
+Val Loss: 0.3433 | Defect IoU: 0.2643
+--- [架构: DeepLabV3Plus] Epoch 146/200 ---
+Val Loss: 0.3417 | Defect IoU: 0.2644
+--- [架构: DeepLabV3Plus] Epoch 147/200 ---
+Val Loss: 0.3427 | Defect IoU: 0.2607
+--- [架构: DeepLabV3Plus] Epoch 148/200 ---
+Val Loss: 0.3446 | Defect IoU: 0.2627
+--- [架构: DeepLabV3Plus] Epoch 149/200 ---
+Val Loss: 0.3434 | Defect IoU: 0.2609
+--- [架构: DeepLabV3Plus] Epoch 150/200 ---
+Val Loss: 0.3424 | Defect IoU: 0.2608
+--- [架构: DeepLabV3Plus] Epoch 151/200 ---
+Val Loss: 0.3880 | Defect IoU: 0.2448
+--- [架构: DeepLabV3Plus] Epoch 152/200 ---
+Val Loss: 0.3489 | Defect IoU: 0.2467
+--- [架构: DeepLabV3Plus] Epoch 153/200 ---
+Val Loss: 0.3678 | Defect IoU: 0.2105
+--- [架构: DeepLabV3Plus] Epoch 154/200 ---
+Val Loss: 0.3810 | Defect IoU: 0.2435
+--- [架构: DeepLabV3Plus] Epoch 155/200 ---
+Val Loss: 0.3562 | Defect IoU: 0.2267
+--- [架构: DeepLabV3Plus] Epoch 156/200 ---
+Val Loss: 0.3571 | Defect IoU: 0.2310
+--- [架构: DeepLabV3Plus] Epoch 157/200 ---
+Val Loss: 0.3639 | Defect IoU: 0.2547
+--- [架构: DeepLabV3Plus] Epoch 158/200 ---
+Val Loss: 0.3579 | Defect IoU: 0.2689
+--- [架构: DeepLabV3Plus] Epoch 159/200 ---
+Val Loss: 0.3229 | Defect IoU: 0.2918
+--- [架构: DeepLabV3Plus] Epoch 160/200 ---
+Val Loss: 0.3616 | Defect IoU: 0.2454
+--- [架构: DeepLabV3Plus] Epoch 161/200 ---
+Val Loss: 0.3398 | Defect IoU: 0.2861
+--- [架构: DeepLabV3Plus] Epoch 162/200 ---
+Val Loss: 0.3385 | Defect IoU: 0.2651
+--- [架构: DeepLabV3Plus] Epoch 163/200 ---
+Val Loss: 0.3323 | Defect IoU: 0.2857
+--- [架构: DeepLabV3Plus] Epoch 164/200 ---
+Val Loss: 0.3423 | Defect IoU: 0.2748
+--- [架构: DeepLabV3Plus] Epoch 165/200 ---
+Val Loss: 0.3645 | Defect IoU: 0.2462
+--- [架构: DeepLabV3Plus] Epoch 166/200 ---
+Val Loss: 0.3446 | Defect IoU: 0.2547
+--- [架构: DeepLabV3Plus] Epoch 167/200 ---
+Val Loss: 0.3350 | Defect IoU: 0.2782
+--- [架构: DeepLabV3Plus] Epoch 168/200 ---
+Val Loss: 0.3541 | Defect IoU: 0.2644
+--- [架构: DeepLabV3Plus] Epoch 169/200 ---
+Val Loss: 0.3296 | Defect IoU: 0.2975
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2975)
+--- [架构: DeepLabV3Plus] Epoch 170/200 ---
+Val Loss: 0.3333 | Defect IoU: 0.2989
+✨ 新的最佳模型已保存至 'best_model_deeplabv3plus.pth' (Defect IoU = 0.2989)
+--- [架构: DeepLabV3Plus] Epoch 171/200 ---
+Val Loss: 0.3379 | Defect IoU: 0.2928
+--- [架构: DeepLabV3Plus] Epoch 172/200 ---
+Val Loss: 0.3482 | Defect IoU: 0.2839
+--- [架构: DeepLabV3Plus] Epoch 173/200 ---
+Val Loss: 0.3685 | Defect IoU: 0.2480
+--- [架构: DeepLabV3Plus] Epoch 174/200 ---
+Val Loss: 0.3738 | Defect IoU: 0.2326
+--- [架构: DeepLabV3Plus] Epoch 175/200 ---
+Val Loss: 0.3267 | Defect IoU: 0.2854
+--- [架构: DeepLabV3Plus] Epoch 176/200 ---
+Val Loss: 0.3628 | Defect IoU: 0.2682
+--- [架构: DeepLabV3Plus] Epoch 177/200 ---
+Val Loss: 0.3523 | Defect IoU: 0.2682
+--- [架构: DeepLabV3Plus] Epoch 178/200 ---
+Val Loss: 0.3531 | Defect IoU: 0.2543
+--- [架构: DeepLabV3Plus] Epoch 179/200 ---
+Val Loss: 0.3606 | Defect IoU: 0.2589
+--- [架构: DeepLabV3Plus] Epoch 180/200 ---
+Val Loss: 0.3504 | Defect IoU: 0.2795
+--- [架构: DeepLabV3Plus] Epoch 181/200 ---
+Val Loss: 0.3626 | Defect IoU: 0.2606
+--- [架构: DeepLabV3Plus] Epoch 182/200 ---
+Val Loss: 0.3502 | Defect IoU: 0.2783
+--- [架构: DeepLabV3Plus] Epoch 183/200 ---
+Val Loss: 0.3498 | Defect IoU: 0.2750
+--- [架构: DeepLabV3Plus] Epoch 184/200 ---
+Val Loss: 0.3466 | Defect IoU: 0.2937
+--- [架构: DeepLabV3Plus] Epoch 185/200 ---
+Val Loss: 0.3582 | Defect IoU: 0.2606
+--- [架构: DeepLabV3Plus] Epoch 186/200 ---
+Val Loss: 0.3415 | Defect IoU: 0.2795
+--- [架构: DeepLabV3Plus] Epoch 187/200 ---
+Val Loss: 0.3563 | Defect IoU: 0.2794
+--- [架构: DeepLabV3Plus] Epoch 188/200 ---
+Val Loss: 0.3569 | Defect IoU: 0.2754
+--- [架构: DeepLabV3Plus] Epoch 189/200 ---
+Val Loss: 0.3640 | Defect IoU: 0.2715
+--- [架构: DeepLabV3Plus] Epoch 190/200 ---
+Val Loss: 0.3444 | Defect IoU: 0.2886
+--- [架构: DeepLabV3Plus] Epoch 191/200 ---
+Val Loss: 0.3408 | Defect IoU: 0.2911
+--- [架构: DeepLabV3Plus] Epoch 192/200 ---
+Val Loss: 0.3527 | Defect IoU: 0.2807
+--- [架构: DeepLabV3Plus] Epoch 193/200 ---
+Val Loss: 0.3680 | Defect IoU: 0.2595
+--- [架构: DeepLabV3Plus] Epoch 194/200 ---
+Val Loss: 0.3627 | Defect IoU: 0.2703
+--- [架构: DeepLabV3Plus] Epoch 195/200 ---
+Val Loss: 0.3452 | Defect IoU: 0.2851
+--- [架构: DeepLabV3Plus] Epoch 196/200 ---
+Val Loss: 0.3881 | Defect IoU: 0.2348
+--- [架构: DeepLabV3Plus] Epoch 197/200 ---
+Val Loss: 0.3787 | Defect IoU: 0.2664
+--- [架构: DeepLabV3Plus] Epoch 198/200 ---
+Val Loss: 0.3617 | Defect IoU: 0.2701
+--- [架构: DeepLabV3Plus] Epoch 199/200 ---
+Val Loss: 0.3708 | Defect IoU: 0.2680
+--- [架构: DeepLabV3Plus] Epoch 200/200 ---
+Val Loss: 0.3744 | Defect IoU: 0.2723
+--- 架构 'DeepLabV3Plus' 实验完成 ---
+
+==================== 正在开始架构 'Unet' 的实验 ====================
+Pre-slicing images into patches...
+Pre-slicing images into patches...
+--- [架构: Unet] Epoch 1/200 ---
+Val Loss: 0.5374 | Defect IoU: 0.0063
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.0063)
+--- [架构: Unet] Epoch 2/200 ---
+Val Loss: 0.4660 | Defect IoU: 0.0143
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.0143)
+--- [架构: Unet] Epoch 3/200 ---
+Val Loss: 0.3847 | Defect IoU: 0.0226
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.0226)
+--- [架构: Unet] Epoch 4/200 ---
+Val Loss: 0.3347 | Defect IoU: 0.0433
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.0433)
+--- [架构: Unet] Epoch 5/200 ---
+Val Loss: 0.3214 | Defect IoU: 0.0416
+--- [架构: Unet] Epoch 6/200 ---
+Val Loss: 0.3227 | Defect IoU: 0.0797
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.0797)
+--- [架构: Unet] Epoch 7/200 ---
+Val Loss: 0.3478 | Defect IoU: 0.0909
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.0909)
+--- [架构: Unet] Epoch 8/200 ---
+Val Loss: 0.3277 | Defect IoU: 0.0955
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.0955)
+--- [架构: Unet] Epoch 9/200 ---
+Val Loss: 0.3123 | Defect IoU: 0.0941
+--- [架构: Unet] Epoch 10/200 ---
+Val Loss: 0.3022 | Defect IoU: 0.1060
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.1060)
+--- [架构: Unet] Epoch 11/200 ---
+Val Loss: 0.3021 | Defect IoU: 0.0672
+--- [架构: Unet] Epoch 12/200 ---
+Val Loss: 0.3111 | Defect IoU: 0.1437
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.1437)
+--- [架构: Unet] Epoch 13/200 ---
+Val Loss: 0.2856 | Defect IoU: 0.0726
+--- [架构: Unet] Epoch 14/200 ---
+Val Loss: 0.2858 | Defect IoU: 0.1215
+--- [架构: Unet] Epoch 15/200 ---
+Val Loss: 0.2683 | Defect IoU: 0.1430
+--- [架构: Unet] Epoch 16/200 ---
+Val Loss: 0.2597 | Defect IoU: 0.1824
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.1824)
+--- [架构: Unet] Epoch 17/200 ---
+Val Loss: 0.2722 | Defect IoU: 0.2203
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.2203)
+--- [架构: Unet] Epoch 18/200 ---
+Val Loss: 0.2568 | Defect IoU: 0.1923
+--- [架构: Unet] Epoch 19/200 ---
+Val Loss: 0.2707 | Defect IoU: 0.2330
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.2330)
+--- [架构: Unet] Epoch 20/200 ---
+Val Loss: 0.2788 | Defect IoU: 0.2155
+--- [架构: Unet] Epoch 21/200 ---
+Val Loss: 0.2849 | Defect IoU: 0.2438
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.2438)
+--- [架构: Unet] Epoch 22/200 ---
+Val Loss: 0.2787 | Defect IoU: 0.2740
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.2740)
+--- [架构: Unet] Epoch 23/200 ---
+Val Loss: 0.2656 | Defect IoU: 0.2419
+--- [架构: Unet] Epoch 24/200 ---
+Val Loss: 0.2665 | Defect IoU: 0.2780
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.2780)
+--- [架构: Unet] Epoch 25/200 ---
+Val Loss: 0.2679 | Defect IoU: 0.2747
+--- [架构: Unet] Epoch 26/200 ---
+Val Loss: 0.2607 | Defect IoU: 0.2639
+--- [架构: Unet] Epoch 27/200 ---
+Val Loss: 0.2705 | Defect IoU: 0.2827
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.2827)
+--- [架构: Unet] Epoch 28/200 ---
+Val Loss: 0.2710 | Defect IoU: 0.2838
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.2838)
+--- [架构: Unet] Epoch 29/200 ---
+Val Loss: 0.2730 | Defect IoU: 0.2852
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.2852)
+--- [架构: Unet] Epoch 30/200 ---
+Val Loss: 0.2742 | Defect IoU: 0.2832
+--- [架构: Unet] Epoch 31/200 ---
+Val Loss: 0.2787 | Defect IoU: 0.1777
+--- [架构: Unet] Epoch 32/200 ---
+Val Loss: 0.2686 | Defect IoU: 0.2066
+--- [架构: Unet] Epoch 33/200 ---
+Val Loss: 0.3042 | Defect IoU: 0.2555
+--- [架构: Unet] Epoch 34/200 ---
+Val Loss: 0.2833 | Defect IoU: 0.2531
+--- [架构: Unet] Epoch 35/200 ---
+Val Loss: 0.3024 | Defect IoU: 0.2305
+--- [架构: Unet] Epoch 36/200 ---
+Val Loss: 0.2866 | Defect IoU: 0.2778
+--- [架构: Unet] Epoch 37/200 ---
+Val Loss: 0.2650 | Defect IoU: 0.2985
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.2985)
+--- [架构: Unet] Epoch 38/200 ---
+Val Loss: 0.2924 | Defect IoU: 0.2527
+--- [架构: Unet] Epoch 39/200 ---
+Val Loss: 0.2841 | Defect IoU: 0.3008
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.3008)
+--- [架构: Unet] Epoch 40/200 ---
+Val Loss: 0.2644 | Defect IoU: 0.3095
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.3095)
+--- [架构: Unet] Epoch 41/200 ---
+Val Loss: 0.2719 | Defect IoU: 0.2979
+--- [架构: Unet] Epoch 42/200 ---
+Val Loss: 0.2880 | Defect IoU: 0.2957
+--- [架构: Unet] Epoch 43/200 ---
+Val Loss: 0.2819 | Defect IoU: 0.2850
+--- [架构: Unet] Epoch 44/200 ---
+Val Loss: 0.3016 | Defect IoU: 0.2642
+--- [架构: Unet] Epoch 45/200 ---
+Val Loss: 0.2650 | Defect IoU: 0.3287
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.3287)
+--- [架构: Unet] Epoch 46/200 ---
+Val Loss: 0.2728 | Defect IoU: 0.2979
+--- [架构: Unet] Epoch 47/200 ---
+Val Loss: 0.2576 | Defect IoU: 0.3244
+--- [架构: Unet] Epoch 48/200 ---
+Val Loss: 0.2854 | Defect IoU: 0.2992
+--- [架构: Unet] Epoch 49/200 ---
+Val Loss: 0.2697 | Defect IoU: 0.3131
+--- [架构: Unet] Epoch 50/200 ---
+Val Loss: 0.2758 | Defect IoU: 0.3160
+--- [架构: Unet] Epoch 51/200 ---
+Val Loss: 0.2758 | Defect IoU: 0.3145
+--- [架构: Unet] Epoch 52/200 ---
+Val Loss: 0.2967 | Defect IoU: 0.2941
+--- [架构: Unet] Epoch 53/200 ---
+Val Loss: 0.2863 | Defect IoU: 0.3003
+--- [架构: Unet] Epoch 54/200 ---
+Val Loss: 0.2776 | Defect IoU: 0.2891
+--- [架构: Unet] Epoch 55/200 ---
+Val Loss: 0.2676 | Defect IoU: 0.3036
+--- [架构: Unet] Epoch 56/200 ---
+Val Loss: 0.2887 | Defect IoU: 0.2841
+--- [架构: Unet] Epoch 57/200 ---
+Val Loss: 0.2789 | Defect IoU: 0.3026
+--- [架构: Unet] Epoch 58/200 ---
+Val Loss: 0.2790 | Defect IoU: 0.2987
+--- [架构: Unet] Epoch 59/200 ---
+Val Loss: 0.2796 | Defect IoU: 0.3013
+--- [架构: Unet] Epoch 60/200 ---
+Val Loss: 0.2825 | Defect IoU: 0.2933
+--- [架构: Unet] Epoch 61/200 ---
+Val Loss: 0.2789 | Defect IoU: 0.3020
+--- [架构: Unet] Epoch 62/200 ---
+Val Loss: 0.2803 | Defect IoU: 0.3006
+--- [架构: Unet] Epoch 63/200 ---
+Val Loss: 0.2861 | Defect IoU: 0.2942
+--- [架构: Unet] Epoch 64/200 ---
+Val Loss: 0.2825 | Defect IoU: 0.2952
+--- [架构: Unet] Epoch 65/200 ---
+Val Loss: 0.2894 | Defect IoU: 0.2896
+--- [架构: Unet] Epoch 66/200 ---
+Val Loss: 0.2891 | Defect IoU: 0.2952
+--- [架构: Unet] Epoch 67/200 ---
+Val Loss: 0.2857 | Defect IoU: 0.2964
+--- [架构: Unet] Epoch 68/200 ---
+Val Loss: 0.2875 | Defect IoU: 0.2956
+--- [架构: Unet] Epoch 69/200 ---
+Val Loss: 0.2888 | Defect IoU: 0.2942
+--- [架构: Unet] Epoch 70/200 ---
+Val Loss: 0.2859 | Defect IoU: 0.2979
+--- [架构: Unet] Epoch 71/200 ---
+Val Loss: 0.2783 | Defect IoU: 0.2914
+--- [架构: Unet] Epoch 72/200 ---
+Val Loss: 0.2970 | Defect IoU: 0.2854
+--- [架构: Unet] Epoch 73/200 ---
+Val Loss: 0.3615 | Defect IoU: 0.2583
+--- [架构: Unet] Epoch 74/200 ---
+Val Loss: 0.3182 | Defect IoU: 0.2837
+--- [架构: Unet] Epoch 75/200 ---
+Val Loss: 0.2926 | Defect IoU: 0.2899
+--- [架构: Unet] Epoch 76/200 ---
+Val Loss: 0.2811 | Defect IoU: 0.2886
+--- [架构: Unet] Epoch 77/200 ---
+Val Loss: 0.2988 | Defect IoU: 0.2826
+--- [架构: Unet] Epoch 78/200 ---
+Val Loss: 0.2884 | Defect IoU: 0.3177
+--- [架构: Unet] Epoch 79/200 ---
+Val Loss: 0.2913 | Defect IoU: 0.3122
+--- [架构: Unet] Epoch 80/200 ---
+Val Loss: 0.3092 | Defect IoU: 0.3009
+--- [架构: Unet] Epoch 81/200 ---
+Val Loss: 0.2838 | Defect IoU: 0.3179
+--- [架构: Unet] Epoch 82/200 ---
+Val Loss: 0.3180 | Defect IoU: 0.2991
+--- [架构: Unet] Epoch 83/200 ---
+Val Loss: 0.3033 | Defect IoU: 0.3013
+--- [架构: Unet] Epoch 84/200 ---
+Val Loss: 0.3040 | Defect IoU: 0.3122
+--- [架构: Unet] Epoch 85/200 ---
+Val Loss: 0.3112 | Defect IoU: 0.2968
+--- [架构: Unet] Epoch 86/200 ---
+Val Loss: 0.2998 | Defect IoU: 0.2832
+--- [架构: Unet] Epoch 87/200 ---
+Val Loss: 0.3001 | Defect IoU: 0.3043
+--- [架构: Unet] Epoch 88/200 ---
+Val Loss: 0.2894 | Defect IoU: 0.3121
+--- [架构: Unet] Epoch 89/200 ---
+Val Loss: 0.3247 | Defect IoU: 0.2698
+--- [架构: Unet] Epoch 90/200 ---
+Val Loss: 0.3023 | Defect IoU: 0.2973
+--- [架构: Unet] Epoch 91/200 ---
+Val Loss: 0.2951 | Defect IoU: 0.2987
+--- [架构: Unet] Epoch 92/200 ---
+Val Loss: 0.2854 | Defect IoU: 0.3128
+--- [架构: Unet] Epoch 93/200 ---
+Val Loss: 0.2897 | Defect IoU: 0.3202
+--- [架构: Unet] Epoch 94/200 ---
+Val Loss: 0.3177 | Defect IoU: 0.2855
+--- [架构: Unet] Epoch 95/200 ---
+Val Loss: 0.3064 | Defect IoU: 0.2987
+--- [架构: Unet] Epoch 96/200 ---
+Val Loss: 0.2959 | Defect IoU: 0.3000
+--- [架构: Unet] Epoch 97/200 ---
+Val Loss: 0.2829 | Defect IoU: 0.3224
+--- [架构: Unet] Epoch 98/200 ---
+Val Loss: 0.3133 | Defect IoU: 0.3098
+--- [架构: Unet] Epoch 99/200 ---
+Val Loss: 0.3235 | Defect IoU: 0.2918
+--- [架构: Unet] Epoch 100/200 ---
+Val Loss: 0.3353 | Defect IoU: 0.2937
+--- [架构: Unet] Epoch 101/200 ---
+Val Loss: 0.3254 | Defect IoU: 0.2924
+--- [架构: Unet] Epoch 102/200 ---
+Val Loss: 0.3072 | Defect IoU: 0.3171
+--- [架构: Unet] Epoch 103/200 ---
+Val Loss: 0.3222 | Defect IoU: 0.2760
+--- [架构: Unet] Epoch 104/200 ---
+Val Loss: 0.3110 | Defect IoU: 0.3012
+--- [架构: Unet] Epoch 105/200 ---
+Val Loss: 0.3008 | Defect IoU: 0.3177
+--- [架构: Unet] Epoch 106/200 ---
+Val Loss: 0.3108 | Defect IoU: 0.3020
+--- [架构: Unet] Epoch 107/200 ---
+Val Loss: 0.3083 | Defect IoU: 0.3111
+--- [架构: Unet] Epoch 108/200 ---
+Val Loss: 0.3117 | Defect IoU: 0.3069
+--- [架构: Unet] Epoch 109/200 ---
+Val Loss: 0.3000 | Defect IoU: 0.3047
+--- [架构: Unet] Epoch 110/200 ---
+Val Loss: 0.3157 | Defect IoU: 0.3090
+--- [架构: Unet] Epoch 111/200 ---
+Val Loss: 0.3164 | Defect IoU: 0.2973
+--- [架构: Unet] Epoch 112/200 ---
+Val Loss: 0.3156 | Defect IoU: 0.3058
+--- [架构: Unet] Epoch 113/200 ---
+Val Loss: 0.3106 | Defect IoU: 0.3111
+--- [架构: Unet] Epoch 114/200 ---
+Val Loss: 0.3184 | Defect IoU: 0.3065
+--- [架构: Unet] Epoch 115/200 ---
+Val Loss: 0.3113 | Defect IoU: 0.3112
+--- [架构: Unet] Epoch 116/200 ---
+Val Loss: 0.3224 | Defect IoU: 0.3140
+--- [架构: Unet] Epoch 117/200 ---
+Val Loss: 0.3080 | Defect IoU: 0.3195
+--- [架构: Unet] Epoch 118/200 ---
+Val Loss: 0.3212 | Defect IoU: 0.2989
+--- [架构: Unet] Epoch 119/200 ---
+Val Loss: 0.3221 | Defect IoU: 0.3033
+--- [架构: Unet] Epoch 120/200 ---
+Val Loss: 0.3121 | Defect IoU: 0.3120
+--- [架构: Unet] Epoch 121/200 ---
+Val Loss: 0.3180 | Defect IoU: 0.3130
+--- [架构: Unet] Epoch 122/200 ---
+Val Loss: 0.3073 | Defect IoU: 0.3187
+--- [架构: Unet] Epoch 123/200 ---
+Val Loss: 0.3209 | Defect IoU: 0.3035
+--- [架构: Unet] Epoch 124/200 ---
+Val Loss: 0.3066 | Defect IoU: 0.3187
+--- [架构: Unet] Epoch 125/200 ---
+Val Loss: 0.3156 | Defect IoU: 0.3125
+--- [架构: Unet] Epoch 126/200 ---
+Val Loss: 0.3089 | Defect IoU: 0.3226
+--- [架构: Unet] Epoch 127/200 ---
+Val Loss: 0.3146 | Defect IoU: 0.3098
+--- [架构: Unet] Epoch 128/200 ---
+Val Loss: 0.3185 | Defect IoU: 0.3057
+--- [架构: Unet] Epoch 129/200 ---
+Val Loss: 0.3169 | Defect IoU: 0.3101
+--- [架构: Unet] Epoch 130/200 ---
+Val Loss: 0.3160 | Defect IoU: 0.3085
+--- [架构: Unet] Epoch 131/200 ---
+Val Loss: 0.3175 | Defect IoU: 0.3108
+--- [架构: Unet] Epoch 132/200 ---
+Val Loss: 0.3210 | Defect IoU: 0.3083
+--- [架构: Unet] Epoch 133/200 ---
+Val Loss: 0.3248 | Defect IoU: 0.3073
+--- [架构: Unet] Epoch 134/200 ---
+Val Loss: 0.3193 | Defect IoU: 0.3152
+--- [架构: Unet] Epoch 135/200 ---
+Val Loss: 0.3254 | Defect IoU: 0.3072
+--- [架构: Unet] Epoch 136/200 ---
+Val Loss: 0.3270 | Defect IoU: 0.3027
+--- [架构: Unet] Epoch 137/200 ---
+Val Loss: 0.3271 | Defect IoU: 0.3064
+--- [架构: Unet] Epoch 138/200 ---
+Val Loss: 0.3266 | Defect IoU: 0.3059
+--- [架构: Unet] Epoch 139/200 ---
+Val Loss: 0.3266 | Defect IoU: 0.3041
+--- [架构: Unet] Epoch 140/200 ---
+Val Loss: 0.3271 | Defect IoU: 0.3104
+--- [架构: Unet] Epoch 141/200 ---
+Val Loss: 0.3258 | Defect IoU: 0.3093
+--- [架构: Unet] Epoch 142/200 ---
+Val Loss: 0.3291 | Defect IoU: 0.3056
+--- [架构: Unet] Epoch 143/200 ---
+Val Loss: 0.3266 | Defect IoU: 0.3059
+--- [架构: Unet] Epoch 144/200 ---
+Val Loss: 0.3273 | Defect IoU: 0.3044
+--- [架构: Unet] Epoch 145/200 ---
+Val Loss: 0.3255 | Defect IoU: 0.3076
+--- [架构: Unet] Epoch 146/200 ---
+Val Loss: 0.3288 | Defect IoU: 0.3043
+--- [架构: Unet] Epoch 147/200 ---
+Val Loss: 0.3262 | Defect IoU: 0.3068
+--- [架构: Unet] Epoch 148/200 ---
+Val Loss: 0.3271 | Defect IoU: 0.3087
+--- [架构: Unet] Epoch 149/200 ---
+Val Loss: 0.3236 | Defect IoU: 0.3100
+--- [架构: Unet] Epoch 150/200 ---
+Val Loss: 0.3230 | Defect IoU: 0.3106
+--- [架构: Unet] Epoch 151/200 ---
+Val Loss: 0.3303 | Defect IoU: 0.2948
+--- [架构: Unet] Epoch 152/200 ---
+Val Loss: 0.3792 | Defect IoU: 0.2632
+--- [架构: Unet] Epoch 153/200 ---
+Val Loss: 0.3082 | Defect IoU: 0.2684
+--- [架构: Unet] Epoch 154/200 ---
+Val Loss: 0.3050 | Defect IoU: 0.2690
+--- [架构: Unet] Epoch 155/200 ---
+Val Loss: 0.3025 | Defect IoU: 0.2856
+--- [架构: Unet] Epoch 156/200 ---
+Val Loss: 0.2861 | Defect IoU: 0.3141
+--- [架构: Unet] Epoch 157/200 ---
+Val Loss: 0.3042 | Defect IoU: 0.3097
+--- [架构: Unet] Epoch 158/200 ---
+Val Loss: 0.3248 | Defect IoU: 0.2924
+--- [架构: Unet] Epoch 159/200 ---
+Val Loss: 0.3047 | Defect IoU: 0.3259
+--- [架构: Unet] Epoch 160/200 ---
+Val Loss: 0.3259 | Defect IoU: 0.2550
+--- [架构: Unet] Epoch 161/200 ---
+Val Loss: 0.3043 | Defect IoU: 0.3127
+--- [架构: Unet] Epoch 162/200 ---
+Val Loss: 0.3202 | Defect IoU: 0.2784
+--- [架构: Unet] Epoch 163/200 ---
+Val Loss: 0.3200 | Defect IoU: 0.2975
+--- [架构: Unet] Epoch 164/200 ---
+Val Loss: 0.3194 | Defect IoU: 0.3071
+--- [架构: Unet] Epoch 165/200 ---
+Val Loss: 0.3212 | Defect IoU: 0.2921
+--- [架构: Unet] Epoch 166/200 ---
+Val Loss: 0.3107 | Defect IoU: 0.3126
+--- [架构: Unet] Epoch 167/200 ---
+Val Loss: 0.3358 | Defect IoU: 0.2731
+--- [架构: Unet] Epoch 168/200 ---
+Val Loss: 0.3205 | Defect IoU: 0.2997
+--- [架构: Unet] Epoch 169/200 ---
+Val Loss: 0.3066 | Defect IoU: 0.3180
+--- [架构: Unet] Epoch 170/200 ---
+Val Loss: 0.3185 | Defect IoU: 0.3056
+--- [架构: Unet] Epoch 171/200 ---
+Val Loss: 0.3173 | Defect IoU: 0.3137
+--- [架构: Unet] Epoch 172/200 ---
+Val Loss: 0.3166 | Defect IoU: 0.3240
+--- [架构: Unet] Epoch 173/200 ---
+Val Loss: 0.3322 | Defect IoU: 0.3063
+--- [架构: Unet] Epoch 174/200 ---
+Val Loss: 0.3359 | Defect IoU: 0.3067
+--- [架构: Unet] Epoch 175/200 ---
+Val Loss: 0.3160 | Defect IoU: 0.3068
+--- [架构: Unet] Epoch 176/200 ---
+Val Loss: 0.3356 | Defect IoU: 0.2953
+--- [架构: Unet] Epoch 177/200 ---
+Val Loss: 0.3010 | Defect IoU: 0.3242
+--- [架构: Unet] Epoch 178/200 ---
+Val Loss: 0.3203 | Defect IoU: 0.3059
+--- [架构: Unet] Epoch 179/200 ---
+Val Loss: 0.3212 | Defect IoU: 0.3055
+--- [架构: Unet] Epoch 180/200 ---
+Val Loss: 0.3215 | Defect IoU: 0.3048
+--- [架构: Unet] Epoch 181/200 ---
+Val Loss: 0.3440 | Defect IoU: 0.2817
+--- [架构: Unet] Epoch 182/200 ---
+Val Loss: 0.3227 | Defect IoU: 0.3079
+--- [架构: Unet] Epoch 183/200 ---
+Val Loss: 0.3241 | Defect IoU: 0.2932
+--- [架构: Unet] Epoch 184/200 ---
+Val Loss: 0.3206 | Defect IoU: 0.3067
+--- [架构: Unet] Epoch 185/200 ---
+Val Loss: 0.3303 | Defect IoU: 0.2938
+--- [架构: Unet] Epoch 186/200 ---
+Val Loss: 0.3318 | Defect IoU: 0.3132
+--- [架构: Unet] Epoch 187/200 ---
+Val Loss: 0.3209 | Defect IoU: 0.3134
+--- [架构: Unet] Epoch 188/200 ---
+Val Loss: 0.3160 | Defect IoU: 0.2956
+--- [架构: Unet] Epoch 189/200 ---
+Val Loss: 0.2955 | Defect IoU: 0.3429
+✨ 新的最佳模型已保存至 'best_model_unet.pth' (Defect IoU = 0.3429)
+--- [架构: Unet] Epoch 190/200 ---
+Val Loss: 0.2999 | Defect IoU: 0.3414
+--- [架构: Unet] Epoch 191/200 ---
+Val Loss: 0.3014 | Defect IoU: 0.3372
+--- [架构: Unet] Epoch 192/200 ---
+Val Loss: 0.3024 | Defect IoU: 0.3301
+--- [架构: Unet] Epoch 193/200 ---
+Val Loss: 0.3137 | Defect IoU: 0.3167
+--- [架构: Unet] Epoch 194/200 ---
+Val Loss: 0.3213 | Defect IoU: 0.3044
+--- [架构: Unet] Epoch 195/200 ---
+Val Loss: 0.3185 | Defect IoU: 0.3073
+--- [架构: Unet] Epoch 196/200 ---
+Val Loss: 0.3111 | Defect IoU: 0.3158
+--- [架构: Unet] Epoch 197/200 ---
+Val Loss: 0.3108 | Defect IoU: 0.3231
+--- [架构: Unet] Epoch 198/200 ---
+Val Loss: 0.3165 | Defect IoU: 0.3148
+--- [架构: Unet] Epoch 199/200 ---
+Val Loss: 0.3283 | Defect IoU: 0.3129
+--- [架构: Unet] Epoch 200/200 ---
+Val Loss: 0.3278 | Defect IoU: 0.3153
+--- 架构 'Unet' 实验完成 ---
+
+==================== 正在开始架构 'UnetPlusPlus' 的实验 ====================
+Pre-slicing images into patches...
+Pre-slicing images into patches...
+--- [架构: UnetPlusPlus] Epoch 1/200 ---
+Val Loss: 0.6012 | Defect IoU: 0.0112
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.0112)
+--- [架构: UnetPlusPlus] Epoch 2/200 ---
+Val Loss: 0.5184 | Defect IoU: 0.0138
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.0138)
+--- [架构: UnetPlusPlus] Epoch 3/200 ---
+Val Loss: 0.6214 | Defect IoU: 0.0200
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.0200)
+--- [架构: UnetPlusPlus] Epoch 4/200 ---
+Val Loss: 0.3961 | Defect IoU: 0.0529
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.0529)
+--- [架构: UnetPlusPlus] Epoch 5/200 ---
+Val Loss: 0.3623 | Defect IoU: 0.0667
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.0667)
+--- [架构: UnetPlusPlus] Epoch 6/200 ---
+Val Loss: 0.3523 | Defect IoU: 0.0738
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.0738)
+--- [架构: UnetPlusPlus] Epoch 7/200 ---
+Val Loss: 0.3291 | Defect IoU: 0.0931
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.0931)
+--- [架构: UnetPlusPlus] Epoch 8/200 ---
+Val Loss: 0.3248 | Defect IoU: 0.0891
+--- [架构: UnetPlusPlus] Epoch 9/200 ---
+Val Loss: 0.3224 | Defect IoU: 0.1285
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.1285)
+--- [架构: UnetPlusPlus] Epoch 10/200 ---
+Val Loss: 0.3164 | Defect IoU: 0.0986
+--- [架构: UnetPlusPlus] Epoch 11/200 ---
+Val Loss: 0.3170 | Defect IoU: 0.0469
+--- [架构: UnetPlusPlus] Epoch 12/200 ---
+Val Loss: 0.3196 | Defect IoU: 0.0788
+--- [架构: UnetPlusPlus] Epoch 13/200 ---
+Val Loss: 0.2840 | Defect IoU: 0.1465
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.1465)
+--- [架构: UnetPlusPlus] Epoch 14/200 ---
+Val Loss: 0.2629 | Defect IoU: 0.1090
+--- [架构: UnetPlusPlus] Epoch 15/200 ---
+Val Loss: 0.2682 | Defect IoU: 0.1220
+--- [架构: UnetPlusPlus] Epoch 16/200 ---
+Val Loss: 0.2620 | Defect IoU: 0.1033
+--- [架构: UnetPlusPlus] Epoch 17/200 ---
+Val Loss: 0.2696 | Defect IoU: 0.1709
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.1709)
+--- [架构: UnetPlusPlus] Epoch 18/200 ---
+Val Loss: 0.2625 | Defect IoU: 0.2152
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.2152)
+--- [架构: UnetPlusPlus] Epoch 19/200 ---
+Val Loss: 0.2612 | Defect IoU: 0.2417
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.2417)
+--- [架构: UnetPlusPlus] Epoch 20/200 ---
+Val Loss: 0.2625 | Defect IoU: 0.2473
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.2473)
+--- [架构: UnetPlusPlus] Epoch 21/200 ---
+Val Loss: 0.2630 | Defect IoU: 0.2267
+--- [架构: UnetPlusPlus] Epoch 22/200 ---
+Val Loss: 0.2837 | Defect IoU: 0.2426
+--- [架构: UnetPlusPlus] Epoch 23/200 ---
+Val Loss: 0.2687 | Defect IoU: 0.2590
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.2590)
+--- [架构: UnetPlusPlus] Epoch 24/200 ---
+Val Loss: 0.2615 | Defect IoU: 0.2736
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.2736)
+--- [架构: UnetPlusPlus] Epoch 25/200 ---
+Val Loss: 0.2486 | Defect IoU: 0.2682
+--- [架构: UnetPlusPlus] Epoch 26/200 ---
+Val Loss: 0.2614 | Defect IoU: 0.2663
+--- [架构: UnetPlusPlus] Epoch 27/200 ---
+Val Loss: 0.2690 | Defect IoU: 0.2782
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.2782)
+--- [架构: UnetPlusPlus] Epoch 28/200 ---
+Val Loss: 0.2611 | Defect IoU: 0.2798
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.2798)
+--- [架构: UnetPlusPlus] Epoch 29/200 ---
+Val Loss: 0.2621 | Defect IoU: 0.2834
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.2834)
+--- [架构: UnetPlusPlus] Epoch 30/200 ---
+Val Loss: 0.2590 | Defect IoU: 0.2828
+--- [架构: UnetPlusPlus] Epoch 31/200 ---
+Val Loss: 0.2711 | Defect IoU: 0.1500
+--- [架构: UnetPlusPlus] Epoch 32/200 ---
+Val Loss: 0.2792 | Defect IoU: 0.2221
+--- [架构: UnetPlusPlus] Epoch 33/200 ---
+Val Loss: 0.2750 | Defect IoU: 0.1919
+--- [架构: UnetPlusPlus] Epoch 34/200 ---
+Val Loss: 0.2878 | Defect IoU: 0.1563
+--- [架构: UnetPlusPlus] Epoch 35/200 ---
+Val Loss: 0.2854 | Defect IoU: 0.2471
+--- [架构: UnetPlusPlus] Epoch 36/200 ---
+Val Loss: 0.2527 | Defect IoU: 0.2814
+--- [架构: UnetPlusPlus] Epoch 37/200 ---
+Val Loss: 0.2632 | Defect IoU: 0.2767
+--- [架构: UnetPlusPlus] Epoch 38/200 ---
+Val Loss: 0.2701 | Defect IoU: 0.2868
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.2868)
+--- [架构: UnetPlusPlus] Epoch 39/200 ---
+Val Loss: 0.2855 | Defect IoU: 0.2680
+--- [架构: UnetPlusPlus] Epoch 40/200 ---
+Val Loss: 0.2918 | Defect IoU: 0.2862
+--- [架构: UnetPlusPlus] Epoch 41/200 ---
+Val Loss: 0.2621 | Defect IoU: 0.3055
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.3055)
+--- [架构: UnetPlusPlus] Epoch 42/200 ---
+Val Loss: 0.2760 | Defect IoU: 0.2842
+--- [架构: UnetPlusPlus] Epoch 43/200 ---
+Val Loss: 0.2833 | Defect IoU: 0.2865
+--- [架构: UnetPlusPlus] Epoch 44/200 ---
+Val Loss: 0.2830 | Defect IoU: 0.2882
+--- [架构: UnetPlusPlus] Epoch 45/200 ---
+Val Loss: 0.2795 | Defect IoU: 0.2992
+--- [架构: UnetPlusPlus] Epoch 46/200 ---
+Val Loss: 0.2920 | Defect IoU: 0.2939
+--- [架构: UnetPlusPlus] Epoch 47/200 ---
+Val Loss: 0.3005 | Defect IoU: 0.2840
+--- [架构: UnetPlusPlus] Epoch 48/200 ---
+Val Loss: 0.2833 | Defect IoU: 0.3083
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.3083)
+--- [架构: UnetPlusPlus] Epoch 49/200 ---
+Val Loss: 0.2865 | Defect IoU: 0.3038
+--- [架构: UnetPlusPlus] Epoch 50/200 ---
+Val Loss: 0.2879 | Defect IoU: 0.2973
+--- [架构: UnetPlusPlus] Epoch 51/200 ---
+Val Loss: 0.2895 | Defect IoU: 0.2826
+--- [架构: UnetPlusPlus] Epoch 52/200 ---
+Val Loss: 0.2936 | Defect IoU: 0.3004
+--- [架构: UnetPlusPlus] Epoch 53/200 ---
+Val Loss: 0.3002 | Defect IoU: 0.2877
+--- [架构: UnetPlusPlus] Epoch 54/200 ---
+Val Loss: 0.2878 | Defect IoU: 0.2951
+--- [架构: UnetPlusPlus] Epoch 55/200 ---
+Val Loss: 0.2901 | Defect IoU: 0.3131
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.3131)
+--- [架构: UnetPlusPlus] Epoch 56/200 ---
+Val Loss: 0.2869 | Defect IoU: 0.3057
+--- [架构: UnetPlusPlus] Epoch 57/200 ---
+Val Loss: 0.2745 | Defect IoU: 0.3118
+--- [架构: UnetPlusPlus] Epoch 58/200 ---
+Val Loss: 0.2799 | Defect IoU: 0.3017
+--- [架构: UnetPlusPlus] Epoch 59/200 ---
+Val Loss: 0.2847 | Defect IoU: 0.2954
+--- [架构: UnetPlusPlus] Epoch 60/200 ---
+Val Loss: 0.2880 | Defect IoU: 0.2990
+--- [架构: UnetPlusPlus] Epoch 61/200 ---
+Val Loss: 0.2769 | Defect IoU: 0.3085
+--- [架构: UnetPlusPlus] Epoch 62/200 ---
+Val Loss: 0.2822 | Defect IoU: 0.3099
+--- [架构: UnetPlusPlus] Epoch 63/200 ---
+Val Loss: 0.2862 | Defect IoU: 0.3052
+--- [架构: UnetPlusPlus] Epoch 64/200 ---
+Val Loss: 0.2889 | Defect IoU: 0.3049
+--- [架构: UnetPlusPlus] Epoch 65/200 ---
+Val Loss: 0.2898 | Defect IoU: 0.3010
+--- [架构: UnetPlusPlus] Epoch 66/200 ---
+Val Loss: 0.2877 | Defect IoU: 0.3060
+--- [架构: UnetPlusPlus] Epoch 67/200 ---
+Val Loss: 0.2845 | Defect IoU: 0.3069
+--- [架构: UnetPlusPlus] Epoch 68/200 ---
+Val Loss: 0.2850 | Defect IoU: 0.3058
+--- [架构: UnetPlusPlus] Epoch 69/200 ---
+Val Loss: 0.2886 | Defect IoU: 0.3029
+--- [架构: UnetPlusPlus] Epoch 70/200 ---
+Val Loss: 0.2884 | Defect IoU: 0.3066
+--- [架构: UnetPlusPlus] Epoch 71/200 ---
+Val Loss: 0.2955 | Defect IoU: 0.2871
+--- [架构: UnetPlusPlus] Epoch 72/200 ---
+Val Loss: 0.3053 | Defect IoU: 0.2654
+--- [架构: UnetPlusPlus] Epoch 73/200 ---
+Val Loss: 0.3122 | Defect IoU: 0.2278
+--- [架构: UnetPlusPlus] Epoch 74/200 ---
+Val Loss: 0.2776 | Defect IoU: 0.3005
+--- [架构: UnetPlusPlus] Epoch 75/200 ---
+Val Loss: 0.2762 | Defect IoU: 0.3001
+--- [架构: UnetPlusPlus] Epoch 76/200 ---
+Val Loss: 0.2837 | Defect IoU: 0.2642
+--- [架构: UnetPlusPlus] Epoch 77/200 ---
+Val Loss: 0.2789 | Defect IoU: 0.2828
+--- [架构: UnetPlusPlus] Epoch 78/200 ---
+Val Loss: 0.2917 | Defect IoU: 0.2768
+--- [架构: UnetPlusPlus] Epoch 79/200 ---
+Val Loss: 0.3010 | Defect IoU: 0.2887
+--- [架构: UnetPlusPlus] Epoch 80/200 ---
+Val Loss: 0.3077 | Defect IoU: 0.2816
+--- [架构: UnetPlusPlus] Epoch 81/200 ---
+Val Loss: 0.2827 | Defect IoU: 0.2996
+--- [架构: UnetPlusPlus] Epoch 82/200 ---
+Val Loss: 0.3319 | Defect IoU: 0.2668
+--- [架构: UnetPlusPlus] Epoch 83/200 ---
+Val Loss: 0.3054 | Defect IoU: 0.2691
+--- [架构: UnetPlusPlus] Epoch 84/200 ---
+Val Loss: 0.2772 | Defect IoU: 0.3098
+--- [架构: UnetPlusPlus] Epoch 85/200 ---
+Val Loss: 0.3185 | Defect IoU: 0.2870
+--- [架构: UnetPlusPlus] Epoch 86/200 ---
+Val Loss: 0.2874 | Defect IoU: 0.3092
+--- [架构: UnetPlusPlus] Epoch 87/200 ---
+Val Loss: 0.3101 | Defect IoU: 0.3055
+--- [架构: UnetPlusPlus] Epoch 88/200 ---
+Val Loss: 0.2957 | Defect IoU: 0.2991
+--- [架构: UnetPlusPlus] Epoch 89/200 ---
+Val Loss: 0.2964 | Defect IoU: 0.2970
+--- [架构: UnetPlusPlus] Epoch 90/200 ---
+Val Loss: 0.2778 | Defect IoU: 0.3070
+--- [架构: UnetPlusPlus] Epoch 91/200 ---
+Val Loss: 0.2959 | Defect IoU: 0.2974
+--- [架构: UnetPlusPlus] Epoch 92/200 ---
+Val Loss: 0.3120 | Defect IoU: 0.2804
+--- [架构: UnetPlusPlus] Epoch 93/200 ---
+Val Loss: 0.3024 | Defect IoU: 0.2928
+--- [架构: UnetPlusPlus] Epoch 94/200 ---
+Val Loss: 0.3134 | Defect IoU: 0.2953
+--- [架构: UnetPlusPlus] Epoch 95/200 ---
+Val Loss: 0.3205 | Defect IoU: 0.2762
+--- [架构: UnetPlusPlus] Epoch 96/200 ---
+Val Loss: 0.3474 | Defect IoU: 0.2890
+--- [架构: UnetPlusPlus] Epoch 97/200 ---
+Val Loss: 0.3066 | Defect IoU: 0.3116
+--- [架构: UnetPlusPlus] Epoch 98/200 ---
+Val Loss: 0.3318 | Defect IoU: 0.2964
+--- [架构: UnetPlusPlus] Epoch 99/200 ---
+Val Loss: 0.3204 | Defect IoU: 0.2889
+--- [架构: UnetPlusPlus] Epoch 100/200 ---
+Val Loss: 0.3103 | Defect IoU: 0.2980
+--- [架构: UnetPlusPlus] Epoch 101/200 ---
+Val Loss: 0.3017 | Defect IoU: 0.3059
+--- [架构: UnetPlusPlus] Epoch 102/200 ---
+Val Loss: 0.3114 | Defect IoU: 0.3013
+--- [架构: UnetPlusPlus] Epoch 103/200 ---
+Val Loss: 0.3181 | Defect IoU: 0.3066
+--- [架构: UnetPlusPlus] Epoch 104/200 ---
+Val Loss: 0.3187 | Defect IoU: 0.3038
+--- [架构: UnetPlusPlus] Epoch 105/200 ---
+Val Loss: 0.3131 | Defect IoU: 0.2986
+--- [架构: UnetPlusPlus] Epoch 106/200 ---
+Val Loss: 0.3112 | Defect IoU: 0.2960
+--- [架构: UnetPlusPlus] Epoch 107/200 ---
+Val Loss: 0.3238 | Defect IoU: 0.2791
+--- [架构: UnetPlusPlus] Epoch 108/200 ---
+Val Loss: 0.3479 | Defect IoU: 0.2815
+--- [架构: UnetPlusPlus] Epoch 109/200 ---
+Val Loss: 0.3086 | Defect IoU: 0.2951
+--- [架构: UnetPlusPlus] Epoch 110/200 ---
+Val Loss: 0.3207 | Defect IoU: 0.2644
+--- [架构: UnetPlusPlus] Epoch 111/200 ---
+Val Loss: 0.3308 | Defect IoU: 0.2785
+--- [架构: UnetPlusPlus] Epoch 112/200 ---
+Val Loss: 0.3031 | Defect IoU: 0.2989
+--- [架构: UnetPlusPlus] Epoch 113/200 ---
+Val Loss: 0.3280 | Defect IoU: 0.2728
+--- [架构: UnetPlusPlus] Epoch 114/200 ---
+Val Loss: 0.3172 | Defect IoU: 0.3046
+--- [架构: UnetPlusPlus] Epoch 115/200 ---
+Val Loss: 0.3218 | Defect IoU: 0.2829
+--- [架构: UnetPlusPlus] Epoch 116/200 ---
+Val Loss: 0.3142 | Defect IoU: 0.2838
+--- [架构: UnetPlusPlus] Epoch 117/200 ---
+Val Loss: 0.3175 | Defect IoU: 0.2904
+--- [架构: UnetPlusPlus] Epoch 118/200 ---
+Val Loss: 0.3263 | Defect IoU: 0.2892
+--- [架构: UnetPlusPlus] Epoch 119/200 ---
+Val Loss: 0.3281 | Defect IoU: 0.2899
+--- [架构: UnetPlusPlus] Epoch 120/200 ---
+Val Loss: 0.3286 | Defect IoU: 0.2957
+--- [架构: UnetPlusPlus] Epoch 121/200 ---
+Val Loss: 0.3367 | Defect IoU: 0.2857
+--- [架构: UnetPlusPlus] Epoch 122/200 ---
+Val Loss: 0.3302 | Defect IoU: 0.2910
+--- [架构: UnetPlusPlus] Epoch 123/200 ---
+Val Loss: 0.3236 | Defect IoU: 0.2899
+--- [架构: UnetPlusPlus] Epoch 124/200 ---
+Val Loss: 0.3306 | Defect IoU: 0.2832
+--- [架构: UnetPlusPlus] Epoch 125/200 ---
+Val Loss: 0.3265 | Defect IoU: 0.2857
+--- [架构: UnetPlusPlus] Epoch 126/200 ---
+Val Loss: 0.3241 | Defect IoU: 0.2874
+--- [架构: UnetPlusPlus] Epoch 127/200 ---
+Val Loss: 0.3324 | Defect IoU: 0.2880
+--- [架构: UnetPlusPlus] Epoch 128/200 ---
+Val Loss: 0.3348 | Defect IoU: 0.2824
+--- [架构: UnetPlusPlus] Epoch 129/200 ---
+Val Loss: 0.3355 | Defect IoU: 0.2852
+--- [架构: UnetPlusPlus] Epoch 130/200 ---
+Val Loss: 0.3450 | Defect IoU: 0.2730
+--- [架构: UnetPlusPlus] Epoch 131/200 ---
+Val Loss: 0.3415 | Defect IoU: 0.2774
+--- [架构: UnetPlusPlus] Epoch 132/200 ---
+Val Loss: 0.3343 | Defect IoU: 0.2913
+--- [架构: UnetPlusPlus] Epoch 133/200 ---
+Val Loss: 0.3373 | Defect IoU: 0.2795
+--- [架构: UnetPlusPlus] Epoch 134/200 ---
+Val Loss: 0.3377 | Defect IoU: 0.2879
+--- [架构: UnetPlusPlus] Epoch 135/200 ---
+Val Loss: 0.3254 | Defect IoU: 0.2852
+--- [架构: UnetPlusPlus] Epoch 136/200 ---
+Val Loss: 0.3238 | Defect IoU: 0.2880
+--- [架构: UnetPlusPlus] Epoch 137/200 ---
+Val Loss: 0.3197 | Defect IoU: 0.2863
+--- [架构: UnetPlusPlus] Epoch 138/200 ---
+Val Loss: 0.3262 | Defect IoU: 0.2897
+--- [架构: UnetPlusPlus] Epoch 139/200 ---
+Val Loss: 0.3251 | Defect IoU: 0.2864
+--- [架构: UnetPlusPlus] Epoch 140/200 ---
+Val Loss: 0.3237 | Defect IoU: 0.2850
+--- [架构: UnetPlusPlus] Epoch 141/200 ---
+Val Loss: 0.3242 | Defect IoU: 0.2861
+--- [架构: UnetPlusPlus] Epoch 142/200 ---
+Val Loss: 0.3188 | Defect IoU: 0.2914
+--- [架构: UnetPlusPlus] Epoch 143/200 ---
+Val Loss: 0.3228 | Defect IoU: 0.2875
+--- [架构: UnetPlusPlus] Epoch 144/200 ---
+Val Loss: 0.3200 | Defect IoU: 0.2849
+--- [架构: UnetPlusPlus] Epoch 145/200 ---
+Val Loss: 0.3189 | Defect IoU: 0.2876
+--- [架构: UnetPlusPlus] Epoch 146/200 ---
+Val Loss: 0.3256 | Defect IoU: 0.2825
+--- [架构: UnetPlusPlus] Epoch 147/200 ---
+Val Loss: 0.3224 | Defect IoU: 0.2833
+--- [架构: UnetPlusPlus] Epoch 148/200 ---
+Val Loss: 0.3264 | Defect IoU: 0.2827
+--- [架构: UnetPlusPlus] Epoch 149/200 ---
+Val Loss: 0.3203 | Defect IoU: 0.2855
+--- [架构: UnetPlusPlus] Epoch 150/200 ---
+Val Loss: 0.3257 | Defect IoU: 0.2815
+--- [架构: UnetPlusPlus] Epoch 151/200 ---
+Val Loss: 0.3091 | Defect IoU: 0.2733
+--- [架构: UnetPlusPlus] Epoch 152/200 ---
+Val Loss: 0.3296 | Defect IoU: 0.2516
+--- [架构: UnetPlusPlus] Epoch 153/200 ---
+Val Loss: 0.2937 | Defect IoU: 0.2971
+--- [架构: UnetPlusPlus] Epoch 154/200 ---
+Val Loss: 0.2926 | Defect IoU: 0.3138
+✨ 新的最佳模型已保存至 'best_model_unetplusplus.pth' (Defect IoU = 0.3138)
+--- [架构: UnetPlusPlus] Epoch 155/200 ---
+Val Loss: 0.2942 | Defect IoU: 0.2874
+--- [架构: UnetPlusPlus] Epoch 156/200 ---
+Val Loss: 0.3132 | Defect IoU: 0.3077
+--- [架构: UnetPlusPlus] Epoch 157/200 ---
+Val Loss: 0.2960 | Defect IoU: 0.2998
+--- [架构: UnetPlusPlus] Epoch 158/200 ---
+Val Loss: 0.3350 | Defect IoU: 0.2491
+--- [架构: UnetPlusPlus] Epoch 159/200 ---
+Val Loss: 0.3042 | Defect IoU: 0.2808
+--- [架构: UnetPlusPlus] Epoch 160/200 ---
+Val Loss: 0.2992 | Defect IoU: 0.3001
+--- [架构: UnetPlusPlus] Epoch 161/200 ---
+Val Loss: 0.3186 | Defect IoU: 0.2871
+--- [架构: UnetPlusPlus] Epoch 162/200 ---
+Val Loss: 0.3050 | Defect IoU: 0.3037
+--- [架构: UnetPlusPlus] Epoch 163/200 ---
+Val Loss: 0.3135 | Defect IoU: 0.2904
+--- [架构: UnetPlusPlus] Epoch 164/200 ---
+Val Loss: 0.3193 | Defect IoU: 0.2977
+--- [架构: UnetPlusPlus] Epoch 165/200 ---
+Val Loss: 0.3207 | Defect IoU: 0.2829
+--- [架构: UnetPlusPlus] Epoch 166/200 ---
+Val Loss: 0.3173 | Defect IoU: 0.2894
+--- [架构: UnetPlusPlus] Epoch 167/200 ---
+Val Loss: 0.3025 | Defect IoU: 0.3068
+--- [架构: UnetPlusPlus] Epoch 168/200 ---
+Val Loss: 0.3156 | Defect IoU: 0.2837
+--- [架构: UnetPlusPlus] Epoch 169/200 ---
+Val Loss: 0.3328 | Defect IoU: 0.2820
+--- [架构: UnetPlusPlus] Epoch 170/200 ---
+Val Loss: 0.3147 | Defect IoU: 0.2842
+--- [架构: UnetPlusPlus] Epoch 171/200 ---
+Val Loss: 0.3166 | Defect IoU: 0.2970
+--- [架构: UnetPlusPlus] Epoch 172/200 ---
+Val Loss: 0.3294 | Defect IoU: 0.2741
+--- [架构: UnetPlusPlus] Epoch 173/200 ---
+Val Loss: 0.3351 | Defect IoU: 0.2807
+--- [架构: UnetPlusPlus] Epoch 174/200 ---
+Val Loss: 0.3240 | Defect IoU: 0.2831
+--- [架构: UnetPlusPlus] Epoch 175/200 ---
+Val Loss: 0.3373 | Defect IoU: 0.2726
+--- [架构: UnetPlusPlus] Epoch 176/200 ---
+Val Loss: 0.3323 | Defect IoU: 0.2733
+--- [架构: UnetPlusPlus] Epoch 177/200 ---
+Val Loss: 0.3262 | Defect IoU: 0.2932
+--- [架构: UnetPlusPlus] Epoch 178/200 ---
+Val Loss: 0.3504 | Defect IoU: 0.2635
+--- [架构: UnetPlusPlus] Epoch 179/200 ---
+Val Loss: 0.3591 | Defect IoU: 0.2550
+--- [架构: UnetPlusPlus] Epoch 180/200 ---
+Val Loss: 0.3345 | Defect IoU: 0.2923
+--- [架构: UnetPlusPlus] Epoch 181/200 ---
+Val Loss: 0.3304 | Defect IoU: 0.2848
+--- [架构: UnetPlusPlus] Epoch 182/200 ---
+Val Loss: 0.3336 | Defect IoU: 0.2902
+--- [架构: UnetPlusPlus] Epoch 183/200 ---
+Val Loss: 0.3308 | Defect IoU: 0.2918
+--- [架构: UnetPlusPlus] Epoch 184/200 ---
+Val Loss: 0.3503 | Defect IoU: 0.2809
+--- [架构: UnetPlusPlus] Epoch 185/200 ---
+Val Loss: 0.3260 | Defect IoU: 0.3035
+--- [架构: UnetPlusPlus] Epoch 186/200 ---
+Val Loss: 0.3437 | Defect IoU: 0.2567
+--- [架构: UnetPlusPlus] Epoch 187/200 ---
+Val Loss: 0.3594 | Defect IoU: 0.2645
+--- [架构: UnetPlusPlus] Epoch 188/200 ---
+Val Loss: 0.3459 | Defect IoU: 0.2651
+--- [架构: UnetPlusPlus] Epoch 189/200 ---
+Val Loss: 0.3300 | Defect IoU: 0.3043
+--- [架构: UnetPlusPlus] Epoch 190/200 ---
+Val Loss: 0.3337 | Defect IoU: 0.2992
+--- [架构: UnetPlusPlus] Epoch 191/200 ---
+Val Loss: 0.3614 | Defect IoU: 0.2615
+--- [架构: UnetPlusPlus] Epoch 192/200 ---
+Val Loss: 0.3447 | Defect IoU: 0.2768
+--- [架构: UnetPlusPlus] Epoch 193/200 ---
+Val Loss: 0.3460 | Defect IoU: 0.2620
+--- [架构: UnetPlusPlus] Epoch 194/200 ---
+Val Loss: 0.3579 | Defect IoU: 0.2789
+--- [架构: UnetPlusPlus] Epoch 195/200 ---
+Val Loss: 0.3405 | Defect IoU: 0.2710
+--- [架构: UnetPlusPlus] Epoch 196/200 ---
+Val Loss: 0.3563 | Defect IoU: 0.2726
+--- [架构: UnetPlusPlus] Epoch 197/200 ---
+Val Loss: 0.3668 | Defect IoU: 0.2668
+--- [架构: UnetPlusPlus] Epoch 198/200 ---
+Val Loss: 0.3885 | Defect IoU: 0.2490
+--- [架构: UnetPlusPlus] Epoch 199/200 ---
+Val Loss: 0.3556 | Defect IoU: 0.2725
+--- [架构: UnetPlusPlus] Epoch 200/200 ---
+Val Loss: 0.3424 | Defect IoU: 0.2846
+--- 架构 'UnetPlusPlus' 实验完成 ---
+(myenv) root@autodl-container-5e1a40abb0-f0ec31bb:~# python train_sequential_crop2.py
+train_sequential_crop2.py:173: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+Device: cuda
+train_sequential_crop2.py:145: UserWarning: Argument 'alpha_affine' is not valid and will be ignored.
+  A.ElasticTransform(alpha=1, sigma=50, alpha_affine=10, p=0.2),
+Pre-slicing images into patches...
+100%|███████████████████████████████████████████████████████████████████████████████████| 10/10 [00:05<00:00,  1.79it/s]
+Pre-slicing images into patches...
+100%|█████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:02<00:00,  1.30it/s]
+raw train images: 10
+train patches: 391
+raw val images: 3
+val patches: 149
+Downloading: "https://download.pytorch.org/models/resnet101-5d3b4d8f.pth" to /root/.cache/torch/hub/checkpoints/resnet101-5d3b4d8f.pth
+100%|████████████████████████████████████████████████████████████████████████████████| 170M/170M [00:05<00:00, 35.1MB/s]
+
+=== Epoch 1/200 ===
+Train:   0%|                                                                                     | 0/66 [00:00<?, ?it/s]train_sequential_crop2.py:184: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:26<00:00,  2.51it/s, loss=0.393]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:45<00:00,  2.39s/it, loss=0.518]
+LR: 0.00009755  TrainLoss: 0.6466  ValLoss: 0.5381  ValAcc: 0.9027
+Val IoU: {'background': 0.9003572463989258, 'normal_stroke': 0.40901583433151245, 'defect_area': 0.012651875615119934}
+Saved best model: best_model_compat.pth  (defect IoU= 0.012651875615119934 )
+
+=== Epoch 2/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.21it/s, loss=0.495]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.453]
+LR: 0.00009045  TrainLoss: 0.4908  ValLoss: 0.4256  ValAcc: 0.9541
+Val IoU: {'background': 0.953056275844574, 'normal_stroke': 0.5387499332427979, 'defect_area': 0.037433747202157974}
+Saved best model: best_model_compat.pth  (defect IoU= 0.037433747202157974 )
+
+=== Epoch 3/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.219]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.375]
+LR: 0.00007939  TrainLoss: 0.4094  ValLoss: 0.3841  ValAcc: 0.9637
+Val IoU: {'background': 0.9624654650688171, 'normal_stroke': 0.5921372175216675, 'defect_area': 0.05271317809820175}
+Saved best model: best_model_compat.pth  (defect IoU= 0.05271317809820175 )
+
+=== Epoch 4/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.197]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.316]
+LR: 0.00006545  TrainLoss: 0.3660  ValLoss: 0.3446  ValAcc: 0.9680
+Val IoU: {'background': 0.9673972129821777, 'normal_stroke': 0.6403893828392029, 'defect_area': 0.04995755851268768}
+
+=== Epoch 5/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:21<00:00,  3.12it/s, loss=0.387]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.299]
+LR: 0.00005000  TrainLoss: 0.3368  ValLoss: 0.3201  ValAcc: 0.9720
+Val IoU: {'background': 0.9716773629188538, 'normal_stroke': 0.6595109701156616, 'defect_area': 0.0641791820526123}
+Saved best model: best_model_compat.pth  (defect IoU= 0.0641791820526123 )
+
+=== Epoch 6/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.361]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.265]
+LR: 0.00003455  TrainLoss: 0.3117  ValLoss: 0.3029  ValAcc: 0.9708
+Val IoU: {'background': 0.970115065574646, 'normal_stroke': 0.6533939242362976, 'defect_area': 0.07378785312175751}
+Saved best model: best_model_compat.pth  (defect IoU= 0.07378785312175751 )
+
+=== Epoch 7/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.371]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.309]
+LR: 0.00002061  TrainLoss: 0.2981  ValLoss: 0.3047  ValAcc: 0.9755
+Val IoU: {'background': 0.9749884605407715, 'normal_stroke': 0.6762922406196594, 'defect_area': 0.09559297561645508}
+Saved best model: best_model_compat.pth  (defect IoU= 0.09559297561645508 )
+
+=== Epoch 8/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.163]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.258]
+LR: 0.00000955  TrainLoss: 0.2766  ValLoss: 0.3005  ValAcc: 0.9780
+Val IoU: {'background': 0.9773526787757874, 'normal_stroke': 0.6931559443473816, 'defect_area': 0.1425161063671112}
+Saved best model: best_model_compat.pth  (defect IoU= 0.1425161063671112 )
+
+=== Epoch 9/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.564]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.25]
+LR: 0.00000245  TrainLoss: 0.2850  ValLoss: 0.2940  ValAcc: 0.9768
+Val IoU: {'background': 0.9763206839561462, 'normal_stroke': 0.6859266757965088, 'defect_area': 0.127094566822052}
+
+=== Epoch 10/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.326]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.259]
+LR: 0.00010000  TrainLoss: 0.2823  ValLoss: 0.2905  ValAcc: 0.9800
+Val IoU: {'background': 0.9796161651611328, 'normal_stroke': 0.7148054838180542, 'defect_area': 0.14079609513282776}
+
+=== Epoch 11/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.302]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.288]
+LR: 0.00009938  TrainLoss: 0.2807  ValLoss: 0.3963  ValAcc: 0.9244
+Val IoU: {'background': 0.9214696288108826, 'normal_stroke': 0.39476484060287476, 'defect_area': 0.06367389857769012}
+
+=== Epoch 12/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.293]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.257]
+LR: 0.00009755  TrainLoss: 0.2784  ValLoss: 0.2865  ValAcc: 0.9757
+Val IoU: {'background': 0.975742518901825, 'normal_stroke': 0.694866955280304, 'defect_area': 0.053484126925468445}
+
+=== Epoch 13/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.108]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.327]
+LR: 0.00009455  TrainLoss: 0.2783  ValLoss: 0.2892  ValAcc: 0.9707
+Val IoU: {'background': 0.9711196422576904, 'normal_stroke': 0.6572383642196655, 'defect_area': 0.043195899575948715}
+
+=== Epoch 14/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.285]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.267]
+LR: 0.00009045  TrainLoss: 0.2642  ValLoss: 0.2887  ValAcc: 0.9744
+Val IoU: {'background': 0.9736106395721436, 'normal_stroke': 0.6602573394775391, 'defect_area': 0.10778698325157166}
+
+=== Epoch 15/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.324]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.197]
+LR: 0.00008536  TrainLoss: 0.2467  ValLoss: 0.2677  ValAcc: 0.9814
+Val IoU: {'background': 0.9809673428535461, 'normal_stroke': 0.715042233467102, 'defect_area': 0.1967715620994568}
+Saved best model: best_model_compat.pth  (defect IoU= 0.1967715620994568 )
+
+=== Epoch 16/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.23]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.208]
+LR: 0.00007939  TrainLoss: 0.2540  ValLoss: 0.2666  ValAcc: 0.9777
+Val IoU: {'background': 0.9776341319084167, 'normal_stroke': 0.695207953453064, 'defect_area': 0.09550336003303528}
+
+=== Epoch 17/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.235]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.257]
+LR: 0.00007270  TrainLoss: 0.2302  ValLoss: 0.2562  ValAcc: 0.9829
+Val IoU: {'background': 0.9825825095176697, 'normal_stroke': 0.7371827960014343, 'defect_area': 0.15811149775981903}
+
+=== Epoch 18/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.221]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.323]
+LR: 0.00006545  TrainLoss: 0.2254  ValLoss: 0.2646  ValAcc: 0.9802
+Val IoU: {'background': 0.9798024892807007, 'normal_stroke': 0.6946739554405212, 'defect_area': 0.16810297966003418}
+
+=== Epoch 19/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.18]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.348]
+LR: 0.00005782  TrainLoss: 0.2154  ValLoss: 0.2576  ValAcc: 0.9829
+Val IoU: {'background': 0.982484757900238, 'normal_stroke': 0.7289989590644836, 'defect_area': 0.21035034954547882}
+Saved best model: best_model_compat.pth  (defect IoU= 0.21035034954547882 )
+
+=== Epoch 20/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.323]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.309]
+LR: 0.00005000  TrainLoss: 0.2130  ValLoss: 0.2660  ValAcc: 0.9818
+Val IoU: {'background': 0.9816416501998901, 'normal_stroke': 0.7101671099662781, 'defect_area': 0.1562717854976654}
+
+=== Epoch 21/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.347]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.378]
+LR: 0.00004218  TrainLoss: 0.2054  ValLoss: 0.2623  ValAcc: 0.9816
+Val IoU: {'background': 0.9810521602630615, 'normal_stroke': 0.7007808685302734, 'defect_area': 0.2659124433994293}
+Saved best model: best_model_compat.pth  (defect IoU= 0.2659124433994293 )
+
+=== Epoch 22/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.427]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.305]
+LR: 0.00003455  TrainLoss: 0.1960  ValLoss: 0.2648  ValAcc: 0.9822
+Val IoU: {'background': 0.9817448258399963, 'normal_stroke': 0.7068097591400146, 'defect_area': 0.2751147150993347}
+Saved best model: best_model_compat.pth  (defect IoU= 0.2751147150993347 )
+
+=== Epoch 23/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.238]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.298]
+LR: 0.00002730  TrainLoss: 0.1798  ValLoss: 0.2575  ValAcc: 0.9824
+Val IoU: {'background': 0.9819431900978088, 'normal_stroke': 0.7147407531738281, 'defect_area': 0.2624134123325348}
+
+=== Epoch 24/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.165]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.28]
+LR: 0.00002061  TrainLoss: 0.1745  ValLoss: 0.2571  ValAcc: 0.9830
+Val IoU: {'background': 0.9825320839881897, 'normal_stroke': 0.7231154441833496, 'defect_area': 0.2717488706111908}
+
+=== Epoch 25/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.28]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.226]
+LR: 0.00001464  TrainLoss: 0.1718  ValLoss: 0.2429  ValAcc: 0.9849
+Val IoU: {'background': 0.984488308429718, 'normal_stroke': 0.7522639632225037, 'defect_area': 0.2854089140892029}
+Saved best model: best_model_compat.pth  (defect IoU= 0.2854089140892029 )
+
+=== Epoch 26/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.171]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.227]
+LR: 0.00000955  TrainLoss: 0.1711  ValLoss: 0.2491  ValAcc: 0.9842
+Val IoU: {'background': 0.9837648868560791, 'normal_stroke': 0.7431230545043945, 'defect_area': 0.3042477071285248}
+Saved best model: best_model_compat.pth  (defect IoU= 0.3042477071285248 )
+
+=== Epoch 27/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.159]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.195]
+LR: 0.00000545  TrainLoss: 0.1712  ValLoss: 0.2465  ValAcc: 0.9837
+Val IoU: {'background': 0.9831867814064026, 'normal_stroke': 0.7392624020576477, 'defect_area': 0.2793751657009125}
+
+=== Epoch 28/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.151]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.202]
+LR: 0.00000245  TrainLoss: 0.1601  ValLoss: 0.2506  ValAcc: 0.9838
+Val IoU: {'background': 0.9833001494407654, 'normal_stroke': 0.7425137162208557, 'defect_area': 0.2855331301689148}
+
+=== Epoch 29/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0725]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.192]
+LR: 0.00000062  TrainLoss: 0.1602  ValLoss: 0.2446  ValAcc: 0.9850
+Val IoU: {'background': 0.9846078753471375, 'normal_stroke': 0.7557758688926697, 'defect_area': 0.2934814393520355}
+
+=== Epoch 30/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.408]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.195]
+LR: 0.00010000  TrainLoss: 0.1643  ValLoss: 0.2440  ValAcc: 0.9842
+Val IoU: {'background': 0.9837723970413208, 'normal_stroke': 0.7447646856307983, 'defect_area': 0.2915332615375519}
+
+=== Epoch 31/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.203]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.177]
+LR: 0.00009985  TrainLoss: 0.1935  ValLoss: 0.2569  ValAcc: 0.9767
+Val IoU: {'background': 0.9770734310150146, 'normal_stroke': 0.6810073256492615, 'defect_area': 0.09604882448911667}
+
+=== Epoch 32/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.571]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.26]
+LR: 0.00009938  TrainLoss: 0.1980  ValLoss: 0.2480  ValAcc: 0.9841
+Val IoU: {'background': 0.9837341904640198, 'normal_stroke': 0.7415100932121277, 'defect_area': 0.20231077075004578}
+
+=== Epoch 33/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.179]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.338]
+LR: 0.00009862  TrainLoss: 0.2122  ValLoss: 0.2724  ValAcc: 0.9800
+Val IoU: {'background': 0.9794586300849915, 'normal_stroke': 0.6907564997673035, 'defect_area': 0.2117932289838791}
+
+=== Epoch 34/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0426]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.173]
+LR: 0.00009755  TrainLoss: 0.1846  ValLoss: 0.2730  ValAcc: 0.9831
+Val IoU: {'background': 0.9826374650001526, 'normal_stroke': 0.7297108769416809, 'defect_area': 0.25420916080474854}
+
+=== Epoch 35/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.134]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.347]
+LR: 0.00009619  TrainLoss: 0.1782  ValLoss: 0.2896  ValAcc: 0.9775
+Val IoU: {'background': 0.9766972064971924, 'normal_stroke': 0.665508508682251, 'defect_area': 0.24718493223190308}
+
+=== Epoch 36/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.239]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.204]
+LR: 0.00009455  TrainLoss: 0.1783  ValLoss: 0.2771  ValAcc: 0.9839
+Val IoU: {'background': 0.9833632707595825, 'normal_stroke': 0.7416220903396606, 'defect_area': 0.28197985887527466}
+
+=== Epoch 37/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0774]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.253]
+LR: 0.00009263  TrainLoss: 0.1740  ValLoss: 0.2591  ValAcc: 0.9838
+Val IoU: {'background': 0.9833069443702698, 'normal_stroke': 0.7295016646385193, 'defect_area': 0.2730066478252411}
+
+=== Epoch 38/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.348]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.234]
+LR: 0.00009045  TrainLoss: 0.1763  ValLoss: 0.2529  ValAcc: 0.9813
+Val IoU: {'background': 0.9806579947471619, 'normal_stroke': 0.7190673351287842, 'defect_area': 0.2858327627182007}
+
+=== Epoch 39/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.141]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.154]
+LR: 0.00008802  TrainLoss: 0.1633  ValLoss: 0.2579  ValAcc: 0.9825
+Val IoU: {'background': 0.9821333885192871, 'normal_stroke': 0.7299820780754089, 'defect_area': 0.23360557854175568}
+
+=== Epoch 40/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.13]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.198]
+LR: 0.00008536  TrainLoss: 0.1565  ValLoss: 0.2560  ValAcc: 0.9839
+Val IoU: {'background': 0.983370840549469, 'normal_stroke': 0.739679753780365, 'defect_area': 0.287269651889801}
+
+=== Epoch 41/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0523]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.169]
+LR: 0.00008247  TrainLoss: 0.1624  ValLoss: 0.2682  ValAcc: 0.9804
+Val IoU: {'background': 0.9796655774116516, 'normal_stroke': 0.703925371170044, 'defect_area': 0.2897830903530121}
+
+=== Epoch 42/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.134]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.187]
+LR: 0.00007939  TrainLoss: 0.1496  ValLoss: 0.2444  ValAcc: 0.9841
+Val IoU: {'background': 0.9835524559020996, 'normal_stroke': 0.747122049331665, 'defect_area': 0.2982320189476013}
+
+=== Epoch 43/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.203]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.202]
+LR: 0.00007612  TrainLoss: 0.1482  ValLoss: 0.2547  ValAcc: 0.9830
+Val IoU: {'background': 0.9824352264404297, 'normal_stroke': 0.7357586622238159, 'defect_area': 0.2773497998714447}
+
+=== Epoch 44/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.0763]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.233]
+LR: 0.00007270  TrainLoss: 0.1463  ValLoss: 0.2745  ValAcc: 0.9836
+Val IoU: {'background': 0.9830611348152161, 'normal_stroke': 0.7349711656570435, 'defect_area': 0.29829204082489014}
+
+=== Epoch 45/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.103]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.201]
+LR: 0.00006913  TrainLoss: 0.1396  ValLoss: 0.2419  ValAcc: 0.9843
+Val IoU: {'background': 0.9838197827339172, 'normal_stroke': 0.7452813386917114, 'defect_area': 0.3284154534339905}
+Saved best model: best_model_compat.pth  (defect IoU= 0.3284154534339905 )
+
+=== Epoch 46/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.199]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.23]
+LR: 0.00006545  TrainLoss: 0.1354  ValLoss: 0.2489  ValAcc: 0.9850
+Val IoU: {'background': 0.9845143556594849, 'normal_stroke': 0.7461897134780884, 'defect_area': 0.32192298769950867}
+
+=== Epoch 47/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.129]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.216]
+LR: 0.00006167  TrainLoss: 0.1352  ValLoss: 0.2448  ValAcc: 0.9847
+Val IoU: {'background': 0.9841545224189758, 'normal_stroke': 0.7489264011383057, 'defect_area': 0.32740476727485657}
+
+=== Epoch 48/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.162]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.228]
+LR: 0.00005782  TrainLoss: 0.1349  ValLoss: 0.2747  ValAcc: 0.9861
+Val IoU: {'background': 0.9856826066970825, 'normal_stroke': 0.7696633338928223, 'defect_area': 0.2849232852458954}
+
+=== Epoch 49/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0392]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.222]
+LR: 0.00005392  TrainLoss: 0.1247  ValLoss: 0.2727  ValAcc: 0.9854
+Val IoU: {'background': 0.9849690198898315, 'normal_stroke': 0.7561912536621094, 'defect_area': 0.30454346537590027}
+
+=== Epoch 50/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.211]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.183]
+LR: 0.00005000  TrainLoss: 0.1257  ValLoss: 0.2554  ValAcc: 0.9837
+Val IoU: {'background': 0.9831432104110718, 'normal_stroke': 0.7390685677528381, 'defect_area': 0.310285359621048}
+
+=== Epoch 51/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.101]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.214]
+LR: 0.00004608  TrainLoss: 0.1239  ValLoss: 0.2476  ValAcc: 0.9856
+Val IoU: {'background': 0.9850947856903076, 'normal_stroke': 0.7623835802078247, 'defect_area': 0.3229025602340698}
+
+=== Epoch 52/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.0465]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.234]
+LR: 0.00004218  TrainLoss: 0.1210  ValLoss: 0.2586  ValAcc: 0.9843
+Val IoU: {'background': 0.9837834239006042, 'normal_stroke': 0.7469284534454346, 'defect_area': 0.29085904359817505}
+
+=== Epoch 53/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0779]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.234]
+LR: 0.00003833  TrainLoss: 0.1134  ValLoss: 0.2783  ValAcc: 0.9833
+Val IoU: {'background': 0.9827709197998047, 'normal_stroke': 0.7336011528968811, 'defect_area': 0.3044356107711792}
+
+=== Epoch 54/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0738]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.22]
+LR: 0.00003455  TrainLoss: 0.1073  ValLoss: 0.2543  ValAcc: 0.9847
+Val IoU: {'background': 0.9842069149017334, 'normal_stroke': 0.74919593334198, 'defect_area': 0.3205486536026001}
+
+=== Epoch 55/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0718]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.215]
+LR: 0.00003087  TrainLoss: 0.1110  ValLoss: 0.2476  ValAcc: 0.9852
+Val IoU: {'background': 0.984703779220581, 'normal_stroke': 0.7559313774108887, 'defect_area': 0.32557788491249084}
+
+=== Epoch 56/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.15it/s, loss=0.061]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.215]
+LR: 0.00002730  TrainLoss: 0.1088  ValLoss: 0.2539  ValAcc: 0.9849
+Val IoU: {'background': 0.984470784664154, 'normal_stroke': 0.7519482374191284, 'defect_area': 0.326019287109375}
+
+=== Epoch 57/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.26]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.207]
+LR: 0.00002388  TrainLoss: 0.1122  ValLoss: 0.2542  ValAcc: 0.9849
+Val IoU: {'background': 0.9844357371330261, 'normal_stroke': 0.750084638595581, 'defect_area': 0.3232080340385437}
+
+=== Epoch 58/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.0973]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.24]
+LR: 0.00002061  TrainLoss: 0.1073  ValLoss: 0.2676  ValAcc: 0.9854
+Val IoU: {'background': 0.9849746823310852, 'normal_stroke': 0.759047269821167, 'defect_area': 0.3024022877216339}
+
+=== Epoch 59/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.212]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.231]
+LR: 0.00001753  TrainLoss: 0.1078  ValLoss: 0.2605  ValAcc: 0.9850
+Val IoU: {'background': 0.9845200777053833, 'normal_stroke': 0.7534987926483154, 'defect_area': 0.3101796507835388}
+
+=== Epoch 60/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0679]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.257]
+LR: 0.00001464  TrainLoss: 0.1070  ValLoss: 0.2650  ValAcc: 0.9850
+Val IoU: {'background': 0.9844831824302673, 'normal_stroke': 0.753738284111023, 'defect_area': 0.303954541683197}
+
+=== Epoch 61/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.322]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.239]
+LR: 0.00001198  TrainLoss: 0.1040  ValLoss: 0.2617  ValAcc: 0.9854
+Val IoU: {'background': 0.9848737120628357, 'normal_stroke': 0.7571707963943481, 'defect_area': 0.31292539834976196}
+
+=== Epoch 62/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0701]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.24]
+LR: 0.00000955  TrainLoss: 0.0993  ValLoss: 0.2626  ValAcc: 0.9853
+Val IoU: {'background': 0.9847769141197205, 'normal_stroke': 0.7545346617698669, 'defect_area': 0.31486231088638306}
+
+=== Epoch 63/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0555]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.242]
+LR: 0.00000737  TrainLoss: 0.1009  ValLoss: 0.2640  ValAcc: 0.9845
+Val IoU: {'background': 0.9839458465576172, 'normal_stroke': 0.7483817934989929, 'defect_area': 0.3116549551486969}
+
+=== Epoch 64/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0927]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.254]
+LR: 0.00000545  TrainLoss: 0.1009  ValLoss: 0.2636  ValAcc: 0.9854
+Val IoU: {'background': 0.9849053621292114, 'normal_stroke': 0.7581753134727478, 'defect_area': 0.30196014046669006}
+
+=== Epoch 65/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0963]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.237]
+LR: 0.00000381  TrainLoss: 0.0967  ValLoss: 0.2573  ValAcc: 0.9853
+Val IoU: {'background': 0.9848520159721375, 'normal_stroke': 0.7574957609176636, 'defect_area': 0.3109759986400604}
+
+=== Epoch 66/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0893]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.239]
+LR: 0.00000245  TrainLoss: 0.0975  ValLoss: 0.2585  ValAcc: 0.9852
+Val IoU: {'background': 0.984714686870575, 'normal_stroke': 0.7561343908309937, 'defect_area': 0.3100372850894928}
+
+=== Epoch 67/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0805]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.238]
+LR: 0.00000138  TrainLoss: 0.1014  ValLoss: 0.2594  ValAcc: 0.9854
+Val IoU: {'background': 0.984993040561676, 'normal_stroke': 0.7552453875541687, 'defect_area': 0.31396815180778503}
+
+=== Epoch 68/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.226]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.249]
+LR: 0.00000062  TrainLoss: 0.0985  ValLoss: 0.2653  ValAcc: 0.9855
+Val IoU: {'background': 0.9850644469261169, 'normal_stroke': 0.7584391236305237, 'defect_area': 0.30874693393707275}
+
+=== Epoch 69/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.111]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.254]
+LR: 0.00000015  TrainLoss: 0.0938  ValLoss: 0.2627  ValAcc: 0.9857
+Val IoU: {'background': 0.9852262139320374, 'normal_stroke': 0.7591027021408081, 'defect_area': 0.30953651666641235}
+
+=== Epoch 70/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.179]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.244]
+LR: 0.00010000  TrainLoss: 0.0987  ValLoss: 0.2621  ValAcc: 0.9858
+Val IoU: {'background': 0.9853523373603821, 'normal_stroke': 0.7595886588096619, 'defect_area': 0.31052735447883606}
+
+=== Epoch 71/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.285]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.223]
+LR: 0.00009996  TrainLoss: 0.1188  ValLoss: 0.2658  ValAcc: 0.9843
+Val IoU: {'background': 0.9838184118270874, 'normal_stroke': 0.7452154755592346, 'defect_area': 0.3190062642097473}
+
+=== Epoch 72/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.162]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.269]
+LR: 0.00009985  TrainLoss: 0.1316  ValLoss: 0.2867  ValAcc: 0.9828
+Val IoU: {'background': 0.9821950197219849, 'normal_stroke': 0.7144220471382141, 'defect_area': 0.301818311214447}
+
+=== Epoch 73/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:21<00:00,  3.11it/s, loss=0.656]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.248]
+LR: 0.00009965  TrainLoss: 0.1415  ValLoss: 0.2769  ValAcc: 0.9838
+Val IoU: {'background': 0.9832186102867126, 'normal_stroke': 0.7407989501953125, 'defect_area': 0.2945713698863983}
+
+=== Epoch 74/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.209]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.277]
+LR: 0.00009938  TrainLoss: 0.1246  ValLoss: 0.2545  ValAcc: 0.9854
+Val IoU: {'background': 0.9849556088447571, 'normal_stroke': 0.7537694573402405, 'defect_area': 0.3041653335094452}
+
+=== Epoch 75/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.16]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.255]
+LR: 0.00009904  TrainLoss: 0.1271  ValLoss: 0.2649  ValAcc: 0.9857
+Val IoU: {'background': 0.9852914810180664, 'normal_stroke': 0.7644553780555725, 'defect_area': 0.2836247384548187}
+
+=== Epoch 76/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.235]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.196]
+LR: 0.00009862  TrainLoss: 0.1218  ValLoss: 0.2655  ValAcc: 0.9842
+Val IoU: {'background': 0.9837673306465149, 'normal_stroke': 0.7471827864646912, 'defect_area': 0.2807122766971588}
+
+=== Epoch 77/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.225]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=1.05]
+LR: 0.00009812  TrainLoss: 0.1424  ValLoss: 0.6369  ValAcc: 0.8796
+Val IoU: {'background': 0.8737916350364685, 'normal_stroke': 0.2847883701324463, 'defect_area': 0.3048741817474365}
+
+=== Epoch 78/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.213]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.238]
+LR: 0.00009755  TrainLoss: 0.1507  ValLoss: 0.2617  ValAcc: 0.9854
+Val IoU: {'background': 0.9849202036857605, 'normal_stroke': 0.7623974680900574, 'defect_area': 0.30265310406684875}
+
+=== Epoch 79/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0826]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.195]
+LR: 0.00009691  TrainLoss: 0.1296  ValLoss: 0.2689  ValAcc: 0.9833
+Val IoU: {'background': 0.9827724099159241, 'normal_stroke': 0.7406986355781555, 'defect_area': 0.30913540720939636}
+
+=== Epoch 80/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.316]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.234]
+LR: 0.00009619  TrainLoss: 0.1384  ValLoss: 0.2747  ValAcc: 0.9839
+Val IoU: {'background': 0.9833462834358215, 'normal_stroke': 0.7422900199890137, 'defect_area': 0.2909005582332611}
+
+=== Epoch 81/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.112]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.259]
+LR: 0.00009541  TrainLoss: 0.1365  ValLoss: 0.2723  ValAcc: 0.9836
+Val IoU: {'background': 0.983096182346344, 'normal_stroke': 0.7333404421806335, 'defect_area': 0.29605522751808167}
+
+=== Epoch 82/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.311]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.251]
+LR: 0.00009455  TrainLoss: 0.1295  ValLoss: 0.2720  ValAcc: 0.9836
+Val IoU: {'background': 0.9829802513122559, 'normal_stroke': 0.7393078207969666, 'defect_area': 0.3109563887119293}
+
+=== Epoch 83/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0797]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.52s/it, loss=0.275]
+LR: 0.00009362  TrainLoss: 0.1227  ValLoss: 0.2759  ValAcc: 0.9833
+Val IoU: {'background': 0.9827508330345154, 'normal_stroke': 0.7377040386199951, 'defect_area': 0.27145516872406006}
+
+=== Epoch 84/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:21<00:00,  3.13it/s, loss=0.168]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.259]
+LR: 0.00009263  TrainLoss: 0.1225  ValLoss: 0.2621  ValAcc: 0.9851
+Val IoU: {'background': 0.9846025705337524, 'normal_stroke': 0.7577805519104004, 'defect_area': 0.3135822117328644}
+
+=== Epoch 85/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.154]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.193]
+LR: 0.00009157  TrainLoss: 0.1288  ValLoss: 0.2550  ValAcc: 0.9846
+Val IoU: {'background': 0.9841601252555847, 'normal_stroke': 0.7479295134544373, 'defect_area': 0.3144700527191162}
+
+=== Epoch 86/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.192]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.299]
+LR: 0.00009045  TrainLoss: 0.1196  ValLoss: 0.2913  ValAcc: 0.9853
+Val IoU: {'background': 0.9848525524139404, 'normal_stroke': 0.7542927861213684, 'defect_area': 0.2922927737236023}
+
+=== Epoch 87/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.127]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.283]
+LR: 0.00008927  TrainLoss: 0.1180  ValLoss: 0.2865  ValAcc: 0.9860
+Val IoU: {'background': 0.985505998134613, 'normal_stroke': 0.7669661045074463, 'defect_area': 0.26072630286216736}
+
+=== Epoch 88/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.338]
+Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.231]
+LR: 0.00008802  TrainLoss: 0.1170  ValLoss: 0.2670  ValAcc: 0.9846
+Val IoU: {'background': 0.9840940833091736, 'normal_stroke': 0.7508204579353333, 'defect_area': 0.2933312654495239}
+
+=== Epoch 89/200 ===
+Train: 100%|███████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0698]
+Valid:  84%|█████████████████████████████████████████████████████▉          | 16/19 [00:24<00:04,  1Valid:  84%|█████████████████████████████████████████████████████▉          | 16/19 [00:26<00:04,  1Valid:  89%|████████████████Valid:  89%|█████████████████████████████████████████████████████████▎      | 17/19 [00:27<00:03,  1.52s/it, loss=Valid:  95%|████████████████████████████████████████████████████████████▋   | 18/19 [00:27<00:01,  1.52s/it, loss=Valid:  95%|████████████████████████████████████████████████████████████▋   | 18/19 [00:28<00:01,  1.52s/it, loss=Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.35s/it, loss=Valid: 100%|████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.258]
+LR: 0.00008672  TrainLoss: 0.1158  ValLoss: 0.2815  ValAcc: 0.9839
+Val IoU: {'background': 0.9834271669387817, 'normal_stroke': 0.7362926602363586, 'defect_area': 0.29560014605522156}
+
+=== Epoch 90/200 ===
+Train:  80%|██████████████████████████████████████████████▌           | 53/66 [00:17<00:04,  3.23itTrain:  80%|██████████████████████████████████████████████▌           | 53/66 [00:17<00:04,  3.23itTrain:  82%|███████████████████████████████████████████████▍   Train:  82%|███████████████████████████████████████████████▍          | 54/66 [00:17<00Train:  83%|████████████████████████████████████████████████▎         | Train:  83%|████████████████████████████████████████████████▎         Train:  85%|█████████████████████████████████████████████████▏Train:  85%|███████████████████████████████████████Train:  86%|██████████████████████████████████████████████████       Train:  86%|██████████████████████████████████████████████████▉        | 57/66 [00:18<00:02,  3.24it/s, loss=0.1Train:  88%|███████████████████████████████████████████████████▊       | 58/66 [00:18<00:02,  3.Train:  88%|██████████████████████████████████████████████████▉       | 58/66 [00:19<00:Train:  89%|█Train:  89%|███████████████████████████████████████████████████▊      | 59/66 [00:19<00:02,  3.24it/s, loss=0Train:  91%|██████████████████████████████████████Train: 100%|██████████████████████████████████████████████████████████| 66/66 [00:21<00:00,  3.11it/s, loss=0.203]
+Valid:  42%|████████████████████████▍                                 | 8/19 [00:12<00:16Valid:  42%|█████████████████████████▎                                  | 8/19 [00:13<00:Valid:  47%|████████████████████████████▍         Valid:  53%|███████████████████████████████                            | 10/19 [00:15<00:13, Valid:  53%|██████████████████████████████▌                           | 10/19 [00:17<00:13,  1.52s/it, lossValid:  58%|████████████████Valid:  84%|███Valid:  89%|█████████Valid:  95%|███████████████████████████████████████████████████████▉   | 18/19 [00:27<00:01,  1.52s/it, loss=0.11Valid: 100%|██████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.244]
+LR: 0.00008536  TrainLoss: 0.1116  ValLoss: 0.2619  ValAcc: 0.9844
+Val IoU: {'background': 0.9839684367179871, 'normal_stroke': 0.7371901869773865, 'defect_area': 0.3055463433265686}
+
+=== Epoch 91/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0712]
+Valid: 100%|██████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.47]
+LR: 0.00008394  TrainLoss: 0.1228  ValLoss: 0.2976  ValAcc: 0.9823
+Val IoU: {'background': 0.9817543625831604, 'normal_stroke': 0.7057519555091858, 'defect_area': 0.2626698613166809}
+
+=== Epoch 92/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.111]
+Valid: 100%|██████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.28]
+LR: 0.00008247  TrainLoss: 0.1103  ValLoss: 0.2810  ValAcc: 0.9833
+Val IoU: {'background': 0.9828142523765564, 'normal_stroke': 0.7348859906196594, 'defect_area': 0.26913994550704956}
+
+=== Epoch 93/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0499]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.197]
+LR: 0.00008095  TrainLoss: 0.1134  ValLoss: 0.2728  ValAcc: 0.9823
+Val IoU: {'background': 0.9816815853118896, 'normal_stroke': 0.7225587964057922, 'defect_area': 0.2923724949359894}
+
+=== Epoch 94/200 ===
+Train: 100%|██████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.14]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.208]
+LR: 0.00007939  TrainLoss: 0.1133  ValLoss: 0.2617  ValAcc: 0.9857
+Val IoU: {'background': 0.9852613806724548, 'normal_stroke': 0.7625782489776611, 'defect_area': 0.30886203050613403}
+
+=== Epoch 95/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.118]
+Valid: 100%|██████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.13]
+LR: 0.00007778  TrainLoss: 0.1033  ValLoss: 0.2581  ValAcc: 0.9849
+Val IoU: {'background': 0.9844173789024353, 'normal_stroke': 0.7508854269981384, 'defect_area': 0.31985193490982056}
+
+=== Epoch 96/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.483]
+Valid:   0%|                                                                                      | 0/19 [00:00<?, ?it/s]Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.219]
+LR: 0.00007612  TrainLoss: 0.1137  ValLoss: 0.2794  ValAcc: 0.9846
+Val IoU: {'background': 0.9841187000274658, 'normal_stroke': 0.7429301142692566, 'defect_area': 0.29414135217666626}
+
+=== Epoch 97/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.114]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.175]
+LR: 0.00007443  TrainLoss: 0.1015  ValLoss: 0.2803  ValAcc: 0.9847
+Val IoU: {'background': 0.9842125177383423, 'normal_stroke': 0.747249186038971, 'defect_area': 0.2916424870491028}
+
+=== Epoch 98/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.276]
+Valid: 100%|██████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.18]
+LR: 0.00007270  TrainLoss: 0.1061  ValLoss: 0.2743  ValAcc: 0.9829
+Val IoU: {'background': 0.9823648929595947, 'normal_stroke': 0.7315548658370972, 'defect_area': 0.312471479177475}
+
+=== Epoch 99/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.0507]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.159]
+LR: 0.00007093  TrainLoss: 0.0969  ValLoss: 0.2679  ValAcc: 0.9827
+Val IoU: {'background': 0.9821730256080627, 'normal_stroke': 0.728450357913971, 'defect_area': 0.3088105320930481}
+
+=== Epoch 100/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.023]
+Valid: 100%|██████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.23]
+LR: 0.00006913  TrainLoss: 0.0989  ValLoss: 0.2891  ValAcc: 0.9834
+Val IoU: {'background': 0.9828415513038635, 'normal_stroke': 0.7342790961265564, 'defect_area': 0.2906820774078369}
+
+=== Epoch 101/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0965]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.214]
+LR: 0.00006731  TrainLoss: 0.0950  ValLoss: 0.2814  ValAcc: 0.9855
+Val IoU: {'background': 0.9850251078605652, 'normal_stroke': 0.7547615766525269, 'defect_area': 0.31238728761672974}
+
+=== Epoch 102/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.15it/s, loss=0.163]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.168]
+LR: 0.00006545  TrainLoss: 0.1045  ValLoss: 0.2542  ValAcc: 0.9836
+Val IoU: {'background': 0.9830895066261292, 'normal_stroke': 0.7433984875679016, 'defect_area': 0.3348538279533386}
+Saved best model: best_model_compat.pth  (defect IoU= 0.3348538279533386 )
+
+=== Epoch 103/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0485]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.185]
+LR: 0.00006357  TrainLoss: 0.0979  ValLoss: 0.2708  ValAcc: 0.9849
+Val IoU: {'background': 0.9844167828559875, 'normal_stroke': 0.7476809620857239, 'defect_area': 0.3183467984199524}
+
+=== Epoch 104/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.212]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.221]
+LR: 0.00006167  TrainLoss: 0.0956  ValLoss: 0.2663  ValAcc: 0.9849
+Val IoU: {'background': 0.9844503998756409, 'normal_stroke': 0.7560129761695862, 'defect_area': 0.3082699477672577}
+
+=== Epoch 105/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.221]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.272]
+LR: 0.00005975  TrainLoss: 0.0941  ValLoss: 0.2847  ValAcc: 0.9850
+Val IoU: {'background': 0.9845476150512695, 'normal_stroke': 0.7550340294837952, 'defect_area': 0.3016171157360077}
+
+=== Epoch 106/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.15it/s, loss=0.131]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.213]
+LR: 0.00005782  TrainLoss: 0.0964  ValLoss: 0.2750  ValAcc: 0.9858
+Val IoU: {'background': 0.9853695034980774, 'normal_stroke': 0.7653716802597046, 'defect_area': 0.3106895685195923}
+
+=== Epoch 107/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.15it/s, loss=0.161]
+Valid: 100%|██████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.19]
+LR: 0.00005588  TrainLoss: 0.0969  ValLoss: 0.2657  ValAcc: 0.9837
+Val IoU: {'background': 0.9831768274307251, 'normal_stroke': 0.7347065210342407, 'defect_area': 0.3178868591785431}
+
+=== Epoch 108/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.096]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.181]
+LR: 0.00005392  TrainLoss: 0.0905  ValLoss: 0.2566  ValAcc: 0.9840
+Val IoU: {'background': 0.9834699630737305, 'normal_stroke': 0.7424503564834595, 'defect_area': 0.3293818235397339}
+
+=== Epoch 109/200 ===
+Train: 100%|██████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=1.35]
+Valid: 100%|██████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.25]
+LR: 0.00005196  TrainLoss: 0.1120  ValLoss: 0.2827  ValAcc: 0.9866
+Val IoU: {'background': 0.9862301349639893, 'normal_stroke': 0.7738651037216187, 'defect_area': 0.3035360872745514}
+
+=== Epoch 110/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.0497]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.245]
+LR: 0.00005000  TrainLoss: 0.0985  ValLoss: 0.2941  ValAcc: 0.9858
+Val IoU: {'background': 0.9853397607803345, 'normal_stroke': 0.7641466856002808, 'defect_area': 0.28725114464759827}
+
+=== Epoch 111/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.214]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.217]
+LR: 0.00004804  TrainLoss: 0.0894  ValLoss: 0.2945  ValAcc: 0.9821
+Val IoU: {'background': 0.9814559817314148, 'normal_stroke': 0.7229982614517212, 'defect_area': 0.29550719261169434}
+
+=== Epoch 112/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.115]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.225]
+LR: 0.00004608  TrainLoss: 0.0934  ValLoss: 0.2764  ValAcc: 0.9860
+Val IoU: {'background': 0.9855554699897766, 'normal_stroke': 0.7675641775131226, 'defect_area': 0.3055625855922699}
+
+=== Epoch 113/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.15it/s, loss=0.0673]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.241]
+LR: 0.00004412  TrainLoss: 0.0858  ValLoss: 0.2792  ValAcc: 0.9863
+Val IoU: {'background': 0.9858945608139038, 'normal_stroke': 0.7729954123497009, 'defect_area': 0.3104858994483948}
+
+=== Epoch 114/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.172]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.221]
+LR: 0.00004218  TrainLoss: 0.0919  ValLoss: 0.2656  ValAcc: 0.9863
+Val IoU: {'background': 0.9858385324478149, 'normal_stroke': 0.7714669704437256, 'defect_area': 0.3315540850162506}
+
+=== Epoch 115/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0733]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.253]
+LR: 0.00004025  TrainLoss: 0.0834  ValLoss: 0.2767  ValAcc: 0.9856
+Val IoU: {'background': 0.9850767850875854, 'normal_stroke': 0.7636652588844299, 'defect_area': 0.3266524374485016}
+
+=== Epoch 116/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.912]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.243]
+LR: 0.00003833  TrainLoss: 0.0994  ValLoss: 0.2716  ValAcc: 0.9852
+Val IoU: {'background': 0.9846863150596619, 'normal_stroke': 0.75691819190979, 'defect_area': 0.32789477705955505}
+
+=== Epoch 117/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.227]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.228]
+LR: 0.00003643  TrainLoss: 0.0839  ValLoss: 0.2810  ValAcc: 0.9849
+Val IoU: {'background': 0.9843684434890747, 'normal_stroke': 0.7550179958343506, 'defect_area': 0.3213435709476471}
+
+=== Epoch 118/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0902]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.247]
+LR: 0.00003455  TrainLoss: 0.0817  ValLoss: 0.2822  ValAcc: 0.9858
+Val IoU: {'background': 0.9853228330612183, 'normal_stroke': 0.7652953267097473, 'defect_area': 0.30723586678504944}
+
+=== Epoch 119/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.228]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.255]
+LR: 0.00003269  TrainLoss: 0.0809  ValLoss: 0.2870  ValAcc: 0.9853
+Val IoU: {'background': 0.9847909212112427, 'normal_stroke': 0.7574321627616882, 'defect_area': 0.3150661885738373}
+
+=== Epoch 120/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.115]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.249]
+LR: 0.00003087  TrainLoss: 0.0811  ValLoss: 0.2835  ValAcc: 0.9854
+Val IoU: {'background': 0.9848857522010803, 'normal_stroke': 0.7600839734077454, 'defect_area': 0.29706835746765137}
+
+=== Epoch 121/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.249]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.278]
+LR: 0.00002907  TrainLoss: 0.0780  ValLoss: 0.3045  ValAcc: 0.9849
+Val IoU: {'background': 0.9844369292259216, 'normal_stroke': 0.7554401159286499, 'defect_area': 0.29074564576148987}
+
+=== Epoch 122/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.111]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.253]
+LR: 0.00002730  TrainLoss: 0.0831  ValLoss: 0.2843  ValAcc: 0.9854
+Val IoU: {'background': 0.9849559664726257, 'normal_stroke': 0.7609764933586121, 'defect_area': 0.30508702993392944}
+
+=== Epoch 123/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.15it/s, loss=0.0617]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.255]
+LR: 0.00002557  TrainLoss: 0.0813  ValLoss: 0.2871  ValAcc: 0.9856
+Val IoU: {'background': 0.9851638078689575, 'normal_stroke': 0.7627291083335876, 'defect_area': 0.3063873052597046}
+
+=== Epoch 124/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0757]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.265]
+LR: 0.00002388  TrainLoss: 0.0848  ValLoss: 0.2845  ValAcc: 0.9852
+Val IoU: {'background': 0.9846816658973694, 'normal_stroke': 0.7563778162002563, 'defect_area': 0.30805784463882446}
+
+=== Epoch 125/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0527]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.265]
+LR: 0.00002222  TrainLoss: 0.0791  ValLoss: 0.2851  ValAcc: 0.9841
+Val IoU: {'background': 0.983545184135437, 'normal_stroke': 0.7447950839996338, 'defect_area': 0.30263203382492065}
+
+=== Epoch 126/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.219]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.242]
+LR: 0.00002061  TrainLoss: 0.0770  ValLoss: 0.2740  ValAcc: 0.9850
+Val IoU: {'background': 0.9845520853996277, 'normal_stroke': 0.7563978433609009, 'defect_area': 0.3186599910259247}
+
+=== Epoch 127/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.107]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.256]
+LR: 0.00001905  TrainLoss: 0.0788  ValLoss: 0.2798  ValAcc: 0.9858
+Val IoU: {'background': 0.9853284358978271, 'normal_stroke': 0.7623502016067505, 'defect_area': 0.3133690655231476}
+
+=== Epoch 128/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.142]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.251]
+LR: 0.00001753  TrainLoss: 0.0771  ValLoss: 0.2735  ValAcc: 0.9852
+Val IoU: {'background': 0.9847228527069092, 'normal_stroke': 0.7549856305122375, 'defect_area': 0.31980404257774353}
+
+=== Epoch 129/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.0325]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.267]
+LR: 0.00001606  TrainLoss: 0.0785  ValLoss: 0.2799  ValAcc: 0.9856
+Val IoU: {'background': 0.9851250052452087, 'normal_stroke': 0.7617690563201904, 'defect_area': 0.31368428468704224}
+
+=== Epoch 130/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.147]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.266]
+LR: 0.00001464  TrainLoss: 0.0745  ValLoss: 0.2830  ValAcc: 0.9860
+Val IoU: {'background': 0.9855129718780518, 'normal_stroke': 0.7638554573059082, 'defect_area': 0.3115553557872772}
+
+=== Epoch 131/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0431]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.254]
+LR: 0.00001328  TrainLoss: 0.0730  ValLoss: 0.2770  ValAcc: 0.9850
+Val IoU: {'background': 0.9844814538955688, 'normal_stroke': 0.7566241025924683, 'defect_area': 0.3235441744327545}
+
+=== Epoch 132/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.132]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.247]
+LR: 0.00001198  TrainLoss: 0.0767  ValLoss: 0.2733  ValAcc: 0.9859
+Val IoU: {'background': 0.9854344129562378, 'normal_stroke': 0.7671689391136169, 'defect_area': 0.3257119655609131}
+
+=== Epoch 133/200 ===
+Train: 100%|██████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.08]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.256]
+LR: 0.00001073  TrainLoss: 0.0761  ValLoss: 0.2775  ValAcc: 0.9855
+Val IoU: {'background': 0.9850795865058899, 'normal_stroke': 0.7634856104850769, 'defect_area': 0.3240557909011841}
+
+=== Epoch 134/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.0687]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.256]
+LR: 0.00000955  TrainLoss: 0.0778  ValLoss: 0.2701  ValAcc: 0.9853
+Val IoU: {'background': 0.9848683476448059, 'normal_stroke': 0.7615432739257812, 'defect_area': 0.3272295594215393}
+
+=== Epoch 135/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.122]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.254]
+LR: 0.00000843  TrainLoss: 0.0758  ValLoss: 0.2711  ValAcc: 0.9858
+Val IoU: {'background': 0.9853562116622925, 'normal_stroke': 0.7673471570014954, 'defect_area': 0.33222195506095886}
+
+=== Epoch 136/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0515]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.265]
+LR: 0.00000737  TrainLoss: 0.0731  ValLoss: 0.2777  ValAcc: 0.9856
+Val IoU: {'background': 0.9850848913192749, 'normal_stroke': 0.7635859251022339, 'defect_area': 0.3249683380126953}
+
+=== Epoch 137/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.122]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.265]
+LR: 0.00000638  TrainLoss: 0.0744  ValLoss: 0.2826  ValAcc: 0.9857
+Val IoU: {'background': 0.9852454662322998, 'normal_stroke': 0.7646613717079163, 'defect_area': 0.31795188784599304}
+
+=== Epoch 138/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.209]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.267]
+LR: 0.00000545  TrainLoss: 0.0708  ValLoss: 0.2836  ValAcc: 0.9863
+Val IoU: {'background': 0.9858236908912659, 'normal_stroke': 0.7708343267440796, 'defect_area': 0.3177458345890045}
+
+=== Epoch 139/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.312]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.268]
+LR: 0.00000459  TrainLoss: 0.0755  ValLoss: 0.2835  ValAcc: 0.9859
+Val IoU: {'background': 0.9854192733764648, 'normal_stroke': 0.7663390636444092, 'defect_area': 0.3118993937969208}
+
+=== Epoch 140/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0493]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.258]
+LR: 0.00000381  TrainLoss: 0.0723  ValLoss: 0.2776  ValAcc: 0.9855
+Val IoU: {'background': 0.9850215911865234, 'normal_stroke': 0.7620195150375366, 'defect_area': 0.32157373428344727}
+
+=== Epoch 141/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.0487]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.272]
+LR: 0.00000309  TrainLoss: 0.0715  ValLoss: 0.2856  ValAcc: 0.9860
+Val IoU: {'background': 0.9855767488479614, 'normal_stroke': 0.7673723101615906, 'defect_area': 0.31831637024879456}
+
+=== Epoch 142/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0825]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.262]
+LR: 0.00000245  TrainLoss: 0.0698  ValLoss: 0.2831  ValAcc: 0.9854
+Val IoU: {'background': 0.9849304556846619, 'normal_stroke': 0.7592837810516357, 'defect_area': 0.3148677349090576}
+
+=== Epoch 143/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.141]
+Valid: 100%|██████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.26]
+LR: 0.00000188  TrainLoss: 0.0744  ValLoss: 0.2835  ValAcc: 0.9852
+Val IoU: {'background': 0.9846796989440918, 'normal_stroke': 0.7559395432472229, 'defect_area': 0.31399768590927124}
+
+=== Epoch 144/200 ===
+Train: 100%|██████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.22it/s, loss=0.31]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.261]
+LR: 0.00000138  TrainLoss: 0.0738  ValLoss: 0.2815  ValAcc: 0.9857
+Val IoU: {'background': 0.9852573871612549, 'normal_stroke': 0.7640735507011414, 'defect_area': 0.3162877559661865}
+
+=== Epoch 145/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.22it/s, loss=0.104]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.253]
+LR: 0.00000096  TrainLoss: 0.0697  ValLoss: 0.2758  ValAcc: 0.9859
+Val IoU: {'background': 0.9855035543441772, 'normal_stroke': 0.7667896151542664, 'defect_area': 0.3224245607852936}
+
+=== Epoch 146/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0798]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.253]
+LR: 0.00000062  TrainLoss: 0.0689  ValLoss: 0.2790  ValAcc: 0.9857
+Val IoU: {'background': 0.9852142930030823, 'normal_stroke': 0.7624253034591675, 'defect_area': 0.3201223611831665}
+
+=== Epoch 147/200 ===
+Train: 100%|██████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.11]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.49s/it, loss=0.255]
+LR: 0.00000035  TrainLoss: 0.0738  ValLoss: 0.2810  ValAcc: 0.9855
+Val IoU: {'background': 0.9850687384605408, 'normal_stroke': 0.7607542872428894, 'defect_area': 0.31405550241470337}
+
+=== Epoch 148/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.21it/s, loss=0.132]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.49s/it, loss=0.264]
+LR: 0.00000015  TrainLoss: 0.0731  ValLoss: 0.2835  ValAcc: 0.9860
+Val IoU: {'background': 0.9855573177337646, 'normal_stroke': 0.7673168182373047, 'defect_area': 0.31827446818351746}
+
+=== Epoch 149/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.24it/s, loss=0.0716]
+Valid: 100%|██████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.49s/it, loss=0.25]
+LR: 0.00000004  TrainLoss: 0.0747  ValLoss: 0.2756  ValAcc: 0.9856
+Val IoU: {'background': 0.9851752519607544, 'normal_stroke': 0.7618640661239624, 'defect_area': 0.3240709602832794}
+
+=== Epoch 150/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.25it/s, loss=0.054]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.258]
+LR: 0.00010000  TrainLoss: 0.0722  ValLoss: 0.2811  ValAcc: 0.9858
+Val IoU: {'background': 0.9853451251983643, 'normal_stroke': 0.7626234292984009, 'defect_area': 0.3189421594142914}
+
+=== Epoch 151/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.25it/s, loss=0.174]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.288]
+LR: 0.00009999  TrainLoss: 0.0858  ValLoss: 0.2848  ValAcc: 0.9838
+Val IoU: {'background': 0.9833095073699951, 'normal_stroke': 0.7415183186531067, 'defect_area': 0.286610871553421}
+
+=== Epoch 152/200 ===
+Train: 100%|██████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.23it/s, loss=0.18]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.268]
+LR: 0.00009996  TrainLoss: 0.0958  ValLoss: 0.3045  ValAcc: 0.9843
+Val IoU: {'background': 0.9838026762008667, 'normal_stroke': 0.7478827834129333, 'defect_area': 0.29595470428466797}
+
+=== Epoch 153/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.25it/s, loss=0.0914]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.255]
+LR: 0.00009991  TrainLoss: 0.0935  ValLoss: 0.2879  ValAcc: 0.9858
+Val IoU: {'background': 0.9853101968765259, 'normal_stroke': 0.7650287747383118, 'defect_area': 0.3009439706802368}
+
+=== Epoch 154/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.25it/s, loss=0.193]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.314]
+LR: 0.00009985  TrainLoss: 0.1153  ValLoss: 0.3112  ValAcc: 0.9849
+Val IoU: {'background': 0.9844306111335754, 'normal_stroke': 0.7518063187599182, 'defect_area': 0.2840745449066162}
+
+=== Epoch 155/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.24it/s, loss=0.0636]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.155]
+LR: 0.00009976  TrainLoss: 0.1265  ValLoss: 0.2630  ValAcc: 0.9816
+Val IoU: {'background': 0.9809777140617371, 'normal_stroke': 0.720180332660675, 'defect_area': 0.31284981966018677}
+
+=== Epoch 156/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.25it/s, loss=0.0717]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.274]
+LR: 0.00009965  TrainLoss: 0.1103  ValLoss: 0.2881  ValAcc: 0.9860
+Val IoU: {'background': 0.9855316281318665, 'normal_stroke': 0.7644361257553101, 'defect_area': 0.29167214035987854}
+
+=== Epoch 157/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.22it/s, loss=0.115]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.252]
+LR: 0.00009953  TrainLoss: 0.1118  ValLoss: 0.2670  ValAcc: 0.9852
+Val IoU: {'background': 0.9847893118858337, 'normal_stroke': 0.7536755800247192, 'defect_area': 0.3100058138370514}
+
+=== Epoch 158/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.24it/s, loss=0.0191]
+Valid: 100%|███████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.3]
+LR: 0.00009938  TrainLoss: 0.1014  ValLoss: 0.2812  ValAcc: 0.9854
+Val IoU: {'background': 0.9849451780319214, 'normal_stroke': 0.753296434879303, 'defect_area': 0.32024917006492615}
+
+=== Epoch 159/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.23it/s, loss=0.0697]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.345]
+LR: 0.00009922  TrainLoss: 0.1006  ValLoss: 0.2976  ValAcc: 0.9857
+Val IoU: {'background': 0.9852347373962402, 'normal_stroke': 0.7640661001205444, 'defect_area': 0.29542556405067444}
+
+=== Epoch 160/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.25it/s, loss=0.169]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.286]
+LR: 0.00009904  TrainLoss: 0.1081  ValLoss: 0.2817  ValAcc: 0.9848
+Val IoU: {'background': 0.9842450022697449, 'normal_stroke': 0.7547308206558228, 'defect_area': 0.30157753825187683}
+
+=== Epoch 161/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.25it/s, loss=0.0152]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.256]
+LR: 0.00009884  TrainLoss: 0.1091  ValLoss: 0.2705  ValAcc: 0.9845
+Val IoU: {'background': 0.9840094447135925, 'normal_stroke': 0.7494229674339294, 'defect_area': 0.31163689494132996}
+
+=== Epoch 162/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.25it/s, loss=0.167]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.269]
+LR: 0.00009862  TrainLoss: 0.1009  ValLoss: 0.2638  ValAcc: 0.9847
+Val IoU: {'background': 0.9842599034309387, 'normal_stroke': 0.746231198310852, 'defect_area': 0.33970367908477783}
+Saved best model: best_model_compat.pth  (defect IoU= 0.33970367908477783 )
+
+=== Epoch 163/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.23it/s, loss=0.044]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.48s/it, loss=0.207]
+LR: 0.00009838  TrainLoss: 0.1022  ValLoss: 0.2643  ValAcc: 0.9836
+Val IoU: {'background': 0.9831154942512512, 'normal_stroke': 0.728850245475769, 'defect_area': 0.3410131633281708}
+Saved best model: best_model_compat.pth  (defect IoU= 0.3410131633281708 )
+
+=== Epoch 164/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.22it/s, loss=0.349]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.49s/it, loss=0.289]
+LR: 0.00009812  TrainLoss: 0.1187  ValLoss: 0.2693  ValAcc: 0.9838
+Val IoU: {'background': 0.9833409190177917, 'normal_stroke': 0.738608717918396, 'defect_area': 0.27975383400917053}
+
+=== Epoch 165/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.233]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.307]
+LR: 0.00009785  TrainLoss: 0.1178  ValLoss: 0.2841  ValAcc: 0.9843
+Val IoU: {'background': 0.983845055103302, 'normal_stroke': 0.7434647679328918, 'defect_area': 0.2947513163089752}
+
+=== Epoch 166/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.21it/s, loss=0.246]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.304]
+LR: 0.00009755  TrainLoss: 0.1099  ValLoss: 0.2916  ValAcc: 0.9841
+Val IoU: {'background': 0.983588695526123, 'normal_stroke': 0.7325218319892883, 'defect_area': 0.29699382185935974}
+
+=== Epoch 167/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.0661]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.284]
+LR: 0.00009724  TrainLoss: 0.0992  ValLoss: 0.2661  ValAcc: 0.9852
+Val IoU: {'background': 0.9847277402877808, 'normal_stroke': 0.7552421689033508, 'defect_area': 0.3269336223602295}
+
+=== Epoch 168/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.21it/s, loss=0.143]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.258]
+LR: 0.00009691  TrainLoss: 0.1051  ValLoss: 0.3135  ValAcc: 0.9832
+Val IoU: {'background': 0.9825885891914368, 'normal_stroke': 0.7314885854721069, 'defect_area': 0.28312864899635315}
+
+=== Epoch 169/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.109]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.292]
+LR: 0.00009656  TrainLoss: 0.0938  ValLoss: 0.2919  ValAcc: 0.9841
+Val IoU: {'background': 0.9835895299911499, 'normal_stroke': 0.7442331910133362, 'defect_area': 0.287624329328537}
+
+=== Epoch 170/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0992]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.297]
+LR: 0.00009619  TrainLoss: 0.0890  ValLoss: 0.2851  ValAcc: 0.9854
+Val IoU: {'background': 0.9849439263343811, 'normal_stroke': 0.7546336650848389, 'defect_area': 0.300876259803772}
+
+=== Epoch 171/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.21it/s, loss=0.122]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.314]
+LR: 0.00009581  TrainLoss: 0.0944  ValLoss: 0.2817  ValAcc: 0.9848
+Val IoU: {'background': 0.9843425154685974, 'normal_stroke': 0.755218505859375, 'defect_area': 0.3234631419181824}
+
+=== Epoch 172/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.17it/s, loss=0.101]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.251]
+LR: 0.00009541  TrainLoss: 0.0950  ValLoss: 0.2757  ValAcc: 0.9822
+Val IoU: {'background': 0.9815965890884399, 'normal_stroke': 0.7260342836380005, 'defect_area': 0.3385484516620636}
+
+=== Epoch 173/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.0951]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.267]
+LR: 0.00009499  TrainLoss: 0.0950  ValLoss: 0.2849  ValAcc: 0.9852
+Val IoU: {'background': 0.984728217124939, 'normal_stroke': 0.7492836713790894, 'defect_area': 0.3263762891292572}
+
+=== Epoch 174/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.261]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.343]
+LR: 0.00009455  TrainLoss: 0.0930  ValLoss: 0.3072  ValAcc: 0.9824
+Val IoU: {'background': 0.9818255305290222, 'normal_stroke': 0.7213618159294128, 'defect_area': 0.2934572696685791}
+
+=== Epoch 175/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.112]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.276]
+LR: 0.00009410  TrainLoss: 0.1029  ValLoss: 0.2971  ValAcc: 0.9853
+Val IoU: {'background': 0.9847934246063232, 'normal_stroke': 0.7567715644836426, 'defect_area': 0.3071291148662567}
+
+=== Epoch 176/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.128]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.286]
+LR: 0.00009362  TrainLoss: 0.0960  ValLoss: 0.2784  ValAcc: 0.9851
+Val IoU: {'background': 0.9846422076225281, 'normal_stroke': 0.7551134824752808, 'defect_area': 0.3136613368988037}
+
+=== Epoch 177/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.138]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.265]
+LR: 0.00009314  TrainLoss: 0.0909  ValLoss: 0.2859  ValAcc: 0.9858
+Val IoU: {'background': 0.9853937029838562, 'normal_stroke': 0.7604569792747498, 'defect_area': 0.29750773310661316}
+
+=== Epoch 178/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.21it/s, loss=0.136]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.265]
+LR: 0.00009263  TrainLoss: 0.0928  ValLoss: 0.2937  ValAcc: 0.9856
+Val IoU: {'background': 0.9851797223091125, 'normal_stroke': 0.7574182152748108, 'defect_area': 0.28048595786094666}
+
+=== Epoch 179/200 ===
+Train: 100%|██████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.65]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.279]
+LR: 0.00009211  TrainLoss: 0.0957  ValLoss: 0.2949  ValAcc: 0.9857
+Val IoU: {'background': 0.9852599501609802, 'normal_stroke': 0.7607162594795227, 'defect_area': 0.2926936149597168}
+
+=== Epoch 180/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.156]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.241]
+LR: 0.00009157  TrainLoss: 0.0894  ValLoss: 0.2750  ValAcc: 0.9846
+Val IoU: {'background': 0.9841450452804565, 'normal_stroke': 0.7492344379425049, 'defect_area': 0.3010079860687256}
+
+=== Epoch 181/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0565]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.242]
+LR: 0.00009102  TrainLoss: 0.0823  ValLoss: 0.2904  ValAcc: 0.9840
+Val IoU: {'background': 0.9834834933280945, 'normal_stroke': 0.7289941906929016, 'defect_area': 0.31253477931022644}
+
+=== Epoch 182/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.0497]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.275]
+LR: 0.00009045  TrainLoss: 0.0899  ValLoss: 0.2649  ValAcc: 0.9850
+Val IoU: {'background': 0.9845216274261475, 'normal_stroke': 0.7584787011146545, 'defect_area': 0.31949853897094727}
+
+=== Epoch 183/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0741]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.241]
+LR: 0.00008987  TrainLoss: 0.0869  ValLoss: 0.2780  ValAcc: 0.9837
+Val IoU: {'background': 0.9831581711769104, 'normal_stroke': 0.7438082695007324, 'defect_area': 0.3166840076446533}
+
+=== Epoch 184/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.181]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.253]
+LR: 0.00008927  TrainLoss: 0.0872  ValLoss: 0.2751  ValAcc: 0.9850
+Val IoU: {'background': 0.984501302242279, 'normal_stroke': 0.7571555972099304, 'defect_area': 0.31675055623054504}
+
+=== Epoch 185/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.103]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.204]
+LR: 0.00008865  TrainLoss: 0.0873  ValLoss: 0.2971  ValAcc: 0.9836
+Val IoU: {'background': 0.9831703305244446, 'normal_stroke': 0.7360219359397888, 'defect_area': 0.21984875202178955}
+
+=== Epoch 186/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.197]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.264]
+LR: 0.00008802  TrainLoss: 0.0900  ValLoss: 0.2933  ValAcc: 0.9851
+Val IoU: {'background': 0.9849256873130798, 'normal_stroke': 0.7554474472999573, 'defect_area': 0.22151793539524078}
+
+=== Epoch 187/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.0374]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.219]
+LR: 0.00008738  TrainLoss: 0.0931  ValLoss: 0.2803  ValAcc: 0.9855
+Val IoU: {'background': 0.9851024150848389, 'normal_stroke': 0.7643361687660217, 'defect_area': 0.30142852663993835}
+
+=== Epoch 188/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.088]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.324]
+LR: 0.00008672  TrainLoss: 0.0943  ValLoss: 0.3101  ValAcc: 0.9839
+Val IoU: {'background': 0.9833250641822815, 'normal_stroke': 0.7430429458618164, 'defect_area': 0.2663784325122833}
+
+=== Epoch 189/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.0958]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.196]
+LR: 0.00008604  TrainLoss: 0.0955  ValLoss: 0.2584  ValAcc: 0.9851
+Val IoU: {'background': 0.9846695065498352, 'normal_stroke': 0.7563319802284241, 'defect_area': 0.3350521922111511}
+
+=== Epoch 190/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.16it/s, loss=0.152]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.231]
+LR: 0.00008536  TrainLoss: 0.0868  ValLoss: 0.2862  ValAcc: 0.9853
+Val IoU: {'background': 0.9848616719245911, 'normal_stroke': 0.7560039162635803, 'defect_area': 0.31920868158340454}
+
+=== Epoch 191/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.151]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.186]
+LR: 0.00008465  TrainLoss: 0.0768  ValLoss: 0.2954  ValAcc: 0.9848
+Val IoU: {'background': 0.9842584729194641, 'normal_stroke': 0.7553870677947998, 'defect_area': 0.28329503536224365}
+
+=== Epoch 192/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0655]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.265]
+LR: 0.00008394  TrainLoss: 0.0807  ValLoss: 0.3022  ValAcc: 0.9855
+Val IoU: {'background': 0.9849964380264282, 'normal_stroke': 0.7590928673744202, 'defect_area': 0.28529441356658936}
+
+=== Epoch 193/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.162]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.121]
+LR: 0.00008321  TrainLoss: 0.0811  ValLoss: 0.2803  ValAcc: 0.9857
+Val IoU: {'background': 0.9852507710456848, 'normal_stroke': 0.7609415650367737, 'defect_area': 0.3441624045372009}
+Saved best model: best_model_compat.pth  (defect IoU= 0.3441624045372009 )
+
+=== Epoch 194/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.063]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.291]
+LR: 0.00008247  TrainLoss: 0.0783  ValLoss: 0.3077  ValAcc: 0.9853
+Val IoU: {'background': 0.9847944378852844, 'normal_stroke': 0.7592816948890686, 'defect_area': 0.28802183270454407}
+
+=== Epoch 195/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.19it/s, loss=0.0915]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.267]
+LR: 0.00008172  TrainLoss: 0.0813  ValLoss: 0.2986  ValAcc: 0.9855
+Val IoU: {'background': 0.9850561022758484, 'normal_stroke': 0.7623374462127686, 'defect_area': 0.2951391041278839}
+
+=== Epoch 196/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.174]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.241]
+LR: 0.00008095  TrainLoss: 0.0824  ValLoss: 0.2711  ValAcc: 0.9837
+Val IoU: {'background': 0.9832090735435486, 'normal_stroke': 0.7419824600219727, 'defect_area': 0.31452518701553345}
+
+=== Epoch 197/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.18it/s, loss=0.0851]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.51s/it, loss=0.245]
+LR: 0.00008018  TrainLoss: 0.0783  ValLoss: 0.2781  ValAcc: 0.9851
+Val IoU: {'background': 0.9846612215042114, 'normal_stroke': 0.7524041533470154, 'defect_area': 0.3306296467781067}
+
+=== Epoch 198/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.22it/s, loss=0.086]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.207]
+LR: 0.00007939  TrainLoss: 0.0809  ValLoss: 0.2713  ValAcc: 0.9855
+Val IoU: {'background': 0.9850611686706543, 'normal_stroke': 0.7602361440658569, 'defect_area': 0.32803842425346375}
+
+=== Epoch 199/200 ===
+Train: 100%|████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.0529]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.204]
+LR: 0.00007859  TrainLoss: 0.0807  ValLoss: 0.2803  ValAcc: 0.9846
+Val IoU: {'background': 0.9841234087944031, 'normal_stroke': 0.7489519715309143, 'defect_area': 0.31029608845710754}
+
+=== Epoch 200/200 ===
+Train: 100%|█████████████████████████████████████████████████████████████████| 66/66 [00:20<00:00,  3.20it/s, loss=0.127]
+Valid: 100%|█████████████████████████████████████████████████████████████████| 19/19 [00:28<00:00,  1.50s/it, loss=0.167]
+LR: 0.00007778  TrainLoss: 0.0780  ValLoss: 0.2895  ValAcc: 0.9856
+Val IoU: {'background': 0.985159695148468, 'normal_stroke': 0.761608898639679, 'defect_area': 0.2982691526412964}
+Training finished. Best defect IoU: 0.3441624045372009
+(myenv) root@autodl-container-5e1a40abb0-f0ec31bb:~# Connection to connect.nmb2.seetacloud.com closed by remote host.
+Connection to connect.nmb2.seetacloud.com closed.
+
+==================================================
+          实验一：架构对比总结报告
+==================================================
+         模型架构   mIoU IoU (defect) IoU (normal) IoU (bg)
+         Unet 69.17%       34.29%       74.79%   98.43%
+DeepLabV3Plus 67.70%       29.89%       74.81%   98.40%
+ UnetPlusPlus 67.59%       34.41%       76.09%   98.52%
+==================================================
+实验完成！以上表格可以直接用于撰写论文。
+
+==================== 正在开始损失函数 'ce_only' 的实验 ====================
+/root/miniconda3/lib/python3.10/site-packages/albumentations/core/validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+Pre-slicing images into patches...
+Pre-slicing images into patches...
+/root/miniconda3/lib/python3.10/site-packages/segmentation_models_pytorch/encoders/__init__.py:136: UserWarning: Error loading resnet101 `imagenet` weights from Hugging Face Hub, trying loading from original url...
+  warnings.warn(message, UserWarning)
+使用【标准交叉熵损失函数】作为基线
+--- [损失函数: ce_only] Epoch 1/200 ---
+Val Loss: 0.4216 | Defect IoU: 0.0000
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.0000)
+--- [损失函数: ce_only] Epoch 2/200 ---
+Val Loss: 0.2763 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 3/200 ---
+Val Loss: 0.2245 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 4/200 ---
+Val Loss: 0.1532 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 5/200 ---
+Val Loss: 0.1363 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 6/200 ---
+Val Loss: 0.1160 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 7/200 ---
+Val Loss: 0.1064 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 8/200 ---
+Val Loss: 0.1000 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 9/200 ---
+Val Loss: 0.1020 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 10/200 ---
+Val Loss: 0.0995 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 11/200 ---
+Val Loss: 0.1175 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 12/200 ---
+Val Loss: 0.0914 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 13/200 ---
+Val Loss: 0.0690 | Defect IoU: 0.0000
+--- [损失函数: ce_only] Epoch 14/200 ---
+Val Loss: 0.0671 | Defect IoU: 0.0008
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.0008)
+--- [损失函数: ce_only] Epoch 15/200 ---
+Val Loss: 0.0671 | Defect IoU: 0.0028
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.0028)
+--- [损失函数: ce_only] Epoch 16/200 ---
+Val Loss: 0.0615 | Defect IoU: 0.0031
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.0031)
+--- [损失函数: ce_only] Epoch 17/200 ---
+Val Loss: 0.1075 | Defect IoU: 0.0197
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.0197)
+--- [损失函数: ce_only] Epoch 18/200 ---
+Val Loss: 0.0588 | Defect IoU: 0.0278
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.0278)
+--- [损失函数: ce_only] Epoch 19/200 ---
+Val Loss: 0.0598 | Defect IoU: 0.0351
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.0351)
+--- [损失函数: ce_only] Epoch 20/200 ---
+Val Loss: 0.0495 | Defect IoU: 0.0836
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.0836)
+--- [损失函数: ce_only] Epoch 21/200 ---
+Val Loss: 0.0507 | Defect IoU: 0.0804
+--- [损失函数: ce_only] Epoch 22/200 ---
+Val Loss: 0.0477 | Defect IoU: 0.0755
+--- [损失函数: ce_only] Epoch 23/200 ---
+Val Loss: 0.0479 | Defect IoU: 0.1109
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.1109)
+--- [损失函数: ce_only] Epoch 24/200 ---
+Val Loss: 0.0468 | Defect IoU: 0.1003
+--- [损失函数: ce_only] Epoch 25/200 ---
+Val Loss: 0.0446 | Defect IoU: 0.1178
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.1178)
+--- [损失函数: ce_only] Epoch 26/200 ---
+Val Loss: 0.0456 | Defect IoU: 0.1249
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.1249)
+--- [损失函数: ce_only] Epoch 27/200 ---
+Val Loss: 0.0461 | Defect IoU: 0.1447
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.1447)
+--- [损失函数: ce_only] Epoch 28/200 ---
+Val Loss: 0.0455 | Defect IoU: 0.1322
+--- [损失函数: ce_only] Epoch 29/200 ---
+Val Loss: 0.0441 | Defect IoU: 0.1405
+--- [损失函数: ce_only] Epoch 30/200 ---
+Val Loss: 0.0446 | Defect IoU: 0.1536
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.1536)
+--- [损失函数: ce_only] Epoch 31/200 ---
+Val Loss: 0.0581 | Defect IoU: 0.0189
+--- [损失函数: ce_only] Epoch 32/200 ---
+Val Loss: 0.0563 | Defect IoU: 0.0925
+--- [损失函数: ce_only] Epoch 33/200 ---
+Val Loss: 0.0531 | Defect IoU: 0.0941
+--- [损失函数: ce_only] Epoch 34/200 ---
+Val Loss: 0.0513 | Defect IoU: 0.2296
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.2296)
+--- [损失函数: ce_only] Epoch 35/200 ---
+Val Loss: 0.0467 | Defect IoU: 0.1543
+--- [损失函数: ce_only] Epoch 36/200 ---
+Val Loss: 0.0541 | Defect IoU: 0.1847
+--- [损失函数: ce_only] Epoch 37/200 ---
+Val Loss: 0.0662 | Defect IoU: 0.1813
+--- [损失函数: ce_only] Epoch 38/200 ---
+Val Loss: 0.0434 | Defect IoU: 0.2229
+--- [损失函数: ce_only] Epoch 39/200 ---
+Val Loss: 0.0510 | Defect IoU: 0.1802
+--- [损失函数: ce_only] Epoch 40/200 ---
+Val Loss: 0.0458 | Defect IoU: 0.2342
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.2342)
+--- [损失函数: ce_only] Epoch 41/200 ---
+Val Loss: 0.0476 | Defect IoU: 0.1551
+--- [损失函数: ce_only] Epoch 42/200 ---
+Val Loss: 0.0513 | Defect IoU: 0.2054
+--- [损失函数: ce_only] Epoch 43/200 ---
+Val Loss: 0.0469 | Defect IoU: 0.0802
+--- [损失函数: ce_only] Epoch 44/200 ---
+Val Loss: 0.0468 | Defect IoU: 0.2518
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.2518)
+--- [损失函数: ce_only] Epoch 45/200 ---
+Val Loss: 0.0486 | Defect IoU: 0.2009
+--- [损失函数: ce_only] Epoch 46/200 ---
+Val Loss: 0.0488 | Defect IoU: 0.2009
+--- [损失函数: ce_only] Epoch 47/200 ---
+Val Loss: 0.0489 | Defect IoU: 0.2003
+--- [损失函数: ce_only] Epoch 48/200 ---
+Val Loss: 0.0485 | Defect IoU: 0.2299
+--- [损失函数: ce_only] Epoch 49/200 ---
+Val Loss: 0.0505 | Defect IoU: 0.2092
+--- [损失函数: ce_only] Epoch 50/200 ---
+Val Loss: 0.0427 | Defect IoU: 0.2307
+--- [损失函数: ce_only] Epoch 51/200 ---
+Val Loss: 0.0476 | Defect IoU: 0.2460
+--- [损失函数: ce_only] Epoch 52/200 ---
+Val Loss: 0.0478 | Defect IoU: 0.2187
+--- [损失函数: ce_only] Epoch 53/200 ---
+Val Loss: 0.0481 | Defect IoU: 0.2539
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.2539)
+--- [损失函数: ce_only] Epoch 54/200 ---
+Val Loss: 0.0508 | Defect IoU: 0.2502
+--- [损失函数: ce_only] Epoch 55/200 ---
+Val Loss: 0.0519 | Defect IoU: 0.2259
+--- [损失函数: ce_only] Epoch 56/200 ---
+Val Loss: 0.0521 | Defect IoU: 0.2447
+--- [损失函数: ce_only] Epoch 57/200 ---
+Val Loss: 0.0509 | Defect IoU: 0.2311
+--- [损失函数: ce_only] Epoch 58/200 ---
+Val Loss: 0.0529 | Defect IoU: 0.2422
+--- [损失函数: ce_only] Epoch 59/200 ---
+Val Loss: 0.0517 | Defect IoU: 0.2184
+--- [损失函数: ce_only] Epoch 60/200 ---
+Val Loss: 0.0504 | Defect IoU: 0.2352
+--- [损失函数: ce_only] Epoch 61/200 ---
+Val Loss: 0.0494 | Defect IoU: 0.2440
+--- [损失函数: ce_only] Epoch 62/200 ---
+Val Loss: 0.0495 | Defect IoU: 0.2256
+--- [损失函数: ce_only] Epoch 63/200 ---
+Val Loss: 0.0467 | Defect IoU: 0.2544
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.2544)
+--- [损失函数: ce_only] Epoch 64/200 ---
+Val Loss: 0.0492 | Defect IoU: 0.2274
+--- [损失函数: ce_only] Epoch 65/200 ---
+Val Loss: 0.0488 | Defect IoU: 0.2368
+--- [损失函数: ce_only] Epoch 66/200 ---
+Val Loss: 0.0510 | Defect IoU: 0.2492
+--- [损失函数: ce_only] Epoch 67/200 ---
+Val Loss: 0.0513 | Defect IoU: 0.2364
+--- [损失函数: ce_only] Epoch 68/200 ---
+Val Loss: 0.0503 | Defect IoU: 0.2441
+--- [损失函数: ce_only] Epoch 69/200 ---
+Val Loss: 0.0509 | Defect IoU: 0.2385
+--- [损失函数: ce_only] Epoch 70/200 ---
+Val Loss: 0.0514 | Defect IoU: 0.2406
+--- [损失函数: ce_only] Epoch 71/200 ---
+Val Loss: 0.0617 | Defect IoU: 0.1005
+--- [损失函数: ce_only] Epoch 72/200 ---
+Val Loss: 0.0685 | Defect IoU: 0.2178
+--- [损失函数: ce_only] Epoch 73/200 ---
+Val Loss: 0.0523 | Defect IoU: 0.1854
+--- [损失函数: ce_only] Epoch 74/200 ---
+Val Loss: 0.0487 | Defect IoU: 0.1962
+--- [损失函数: ce_only] Epoch 75/200 ---
+Val Loss: 0.0596 | Defect IoU: 0.2591
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.2591)
+--- [损失函数: ce_only] Epoch 76/200 ---
+Val Loss: 0.0636 | Defect IoU: 0.2265
+--- [损失函数: ce_only] Epoch 77/200 ---
+Val Loss: 0.0462 | Defect IoU: 0.2081
+--- [损失函数: ce_only] Epoch 78/200 ---
+Val Loss: 0.0986 | Defect IoU: 0.1743
+--- [损失函数: ce_only] Epoch 79/200 ---
+Val Loss: 0.0504 | Defect IoU: 0.1917
+--- [损失函数: ce_only] Epoch 80/200 ---
+Val Loss: 0.0549 | Defect IoU: 0.2434
+--- [损失函数: ce_only] Epoch 81/200 ---
+Val Loss: 0.0432 | Defect IoU: 0.2144
+--- [损失函数: ce_only] Epoch 82/200 ---
+Val Loss: 0.0453 | Defect IoU: 0.2418
+--- [损失函数: ce_only] Epoch 83/200 ---
+Val Loss: 0.0472 | Defect IoU: 0.2384
+--- [损失函数: ce_only] Epoch 84/200 ---
+Val Loss: 0.0482 | Defect IoU: 0.2164
+--- [损失函数: ce_only] Epoch 85/200 ---
+Val Loss: 0.0531 | Defect IoU: 0.2947
+✨ 新的最佳模型已保存至 'best_model_loss_ce_only.pth' (Defect IoU = 0.2947)
+--- [损失函数: ce_only] Epoch 86/200 ---
+Val Loss: 0.0404 | Defect IoU: 0.2827
+--- [损失函数: ce_only] Epoch 87/200 ---
+Val Loss: 0.0491 | Defect IoU: 0.2268
+--- [损失函数: ce_only] Epoch 88/200 ---
+Val Loss: 0.0441 | Defect IoU: 0.2631
+--- [损失函数: ce_only] Epoch 89/200 ---
+Val Loss: 0.0446 | Defect IoU: 0.2602
+--- [损失函数: ce_only] Epoch 90/200 ---
+Val Loss: 0.0497 | Defect IoU: 0.2883
+--- [损失函数: ce_only] Epoch 91/200 ---
+Val Loss: 0.0399 | Defect IoU: 0.2511
+--- [损失函数: ce_only] Epoch 92/200 ---
+Val Loss: 0.0417 | Defect IoU: 0.2228
+--- [损失函数: ce_only] Epoch 93/200 ---
+Val Loss: 0.0413 | Defect IoU: 0.2580
+--- [损失函数: ce_only] Epoch 94/200 ---
+Val Loss: 0.0421 | Defect IoU: 0.2698
+--- [损失函数: ce_only] Epoch 95/200 ---
+Val Loss: 0.0416 | Defect IoU: 0.2293
+--- [损失函数: ce_only] Epoch 96/200 ---
+Val Loss: 0.0437 | Defect IoU: 0.2427
+--- [损失函数: ce_only] Epoch 97/200 ---
+Val Loss: 0.0425 | Defect IoU: 0.2621
+--- [损失函数: ce_only] Epoch 98/200 ---
+Val Loss: 0.0520 | Defect IoU: 0.2368
+--- [损失函数: ce_only] Epoch 99/200 ---
+Val Loss: 0.0429 | Defect IoU: 0.2235
+--- [损失函数: ce_only] Epoch 100/200 ---
+Val Loss: 0.0514 | Defect IoU: 0.2197
+--- [损失函数: ce_only] Epoch 101/200 ---
+Val Loss: 0.0432 | Defect IoU: 0.2593
+--- [损失函数: ce_only] Epoch 102/200 ---
+Val Loss: 0.0426 | Defect IoU: 0.2393
+--- [损失函数: ce_only] Epoch 103/200 ---
+Val Loss: 0.0424 | Defect IoU: 0.2735
+--- [损失函数: ce_only] Epoch 104/200 ---
+Val Loss: 0.0425 | Defect IoU: 0.2580
+--- [损失函数: ce_only] Epoch 105/200 ---
+Val Loss: 0.0441 | Defect IoU: 0.2610
+--- [损失函数: ce_only] Epoch 106/200 ---
+Val Loss: 0.0428 | Defect IoU: 0.2668
+--- [损失函数: ce_only] Epoch 107/200 ---
+Val Loss: 0.0425 | Defect IoU: 0.2279
+--- [损失函数: ce_only] Epoch 108/200 ---
+Val Loss: 0.0399 | Defect IoU: 0.2738
+--- [损失函数: ce_only] Epoch 109/200 ---
+Val Loss: 0.0424 | Defect IoU: 0.2271
+--- [损失函数: ce_only] Epoch 110/200 ---
+Val Loss: 0.0426 | Defect IoU: 0.2312
+--- [损失函数: ce_only] Epoch 111/200 ---
+Val Loss: 0.0436 | Defect IoU: 0.2359
+--- [损失函数: ce_only] Epoch 112/200 ---
+Val Loss: 0.0428 | Defect IoU: 0.2798
+--- [损失函数: ce_only] Epoch 113/200 ---
+Val Loss: 0.0431 | Defect IoU: 0.2480
+--- [损失函数: ce_only] Epoch 114/200 ---
+Val Loss: 0.0412 | Defect IoU: 0.2379
+--- [损失函数: ce_only] Epoch 115/200 ---
+Val Loss: 0.0426 | Defect IoU: 0.2279
+--- [损失函数: ce_only] Epoch 116/200 ---
+Val Loss: 0.0413 | Defect IoU: 0.2555
+--- [损失函数: ce_only] Epoch 117/200 ---
+Val Loss: 0.0417 | Defect IoU: 0.2472
+--- [损失函数: ce_only] Epoch 118/200 ---
+Val Loss: 0.0419 | Defect IoU: 0.2342
+--- [损失函数: ce_only] Epoch 119/200 ---
+Val Loss: 0.0425 | Defect IoU: 0.2319
+--- [损失函数: ce_only] Epoch 120/200 ---
+Val Loss: 0.0413 | Defect IoU: 0.2538
+--- [损失函数: ce_only] Epoch 121/200 ---
+Val Loss: 0.0535 | Defect IoU: 0.2612
+--- [损失函数: ce_only] Epoch 122/200 ---
+Val Loss: 0.0506 | Defect IoU: 0.2145
+--- [损失函数: ce_only] Epoch 123/200 ---
+Val Loss: 0.0408 | Defect IoU: 0.2670
+--- [损失函数: ce_only] Epoch 124/200 ---
+Val Loss: 0.0449 | Defect IoU: 0.2539
+--- [损失函数: ce_only] Epoch 125/200 ---
+Val Loss: 0.0460 | Defect IoU: 0.2490
+--- [损失函数: ce_only] Epoch 126/200 ---
+Val Loss: 0.0421 | Defect IoU: 0.2635
+--- [损失函数: ce_only] Epoch 127/200 ---
+Val Loss: 0.0423 | Defect IoU: 0.2327
+--- [损失函数: ce_only] Epoch 128/200 ---
+Val Loss: 0.0436 | Defect IoU: 0.2352
+--- [损失函数: ce_only] Epoch 129/200 ---
+Val Loss: 0.0421 | Defect IoU: 0.2365
+--- [损失函数: ce_only] Epoch 130/200 ---
+Val Loss: 0.0408 | Defect IoU: 0.2366
+--- [损失函数: ce_only] Epoch 131/200 ---
+Val Loss: 0.0420 | Defect IoU: 0.2446
+--- [损失函数: ce_only] Epoch 132/200 ---
+Val Loss: 0.0420 | Defect IoU: 0.2362
+--- [损失函数: ce_only] Epoch 133/200 ---
+Val Loss: 0.0428 | Defect IoU: 0.2511
+--- [损失函数: ce_only] Epoch 134/200 ---
+Val Loss: 0.0416 | Defect IoU: 0.2434
+--- [损失函数: ce_only] Epoch 135/200 ---
+Val Loss: 0.0417 | Defect IoU: 0.2485
+--- [损失函数: ce_only] Epoch 136/200 ---
+Val Loss: 0.0429 | Defect IoU: 0.2629
+--- [损失函数: ce_only] Epoch 137/200 ---
+Val Loss: 0.0413 | Defect IoU: 0.2450
+--- [损失函数: ce_only] Epoch 138/200 ---
+Val Loss: 0.0409 | Defect IoU: 0.2637
+--- [损失函数: ce_only] Epoch 139/200 ---
+Val Loss: 0.0415 | Defect IoU: 0.2501
+--- [损失函数: ce_only] Epoch 140/200 ---
+Val Loss: 0.0412 | Defect IoU: 0.2585
+--- [损失函数: ce_only] Epoch 141/200 ---
+Val Loss: 0.0412 | Defect IoU: 0.2582
+--- [损失函数: ce_only] Epoch 142/200 ---
+Val Loss: 0.0414 | Defect IoU: 0.2466
+--- [损失函数: ce_only] Epoch 143/200 ---
+Val Loss: 0.0413 | Defect IoU: 0.2521
+--- [损失函数: ce_only] Epoch 144/200 ---
+Val Loss: 0.0412 | Defect IoU: 0.2638
+--- [损失函数: ce_only] Epoch 145/200 ---
+Val Loss: 0.0413 | Defect IoU: 0.2610
+--- [损失函数: ce_only] Epoch 146/200 ---
+Val Loss: 0.0412 | Defect IoU: 0.2581
+--- [损失函数: ce_only] Epoch 147/200 ---
+Val Loss: 0.0412 | Defect IoU: 0.2542
+--- [损失函数: ce_only] Epoch 148/200 ---
+Val Loss: 0.0416 | Defect IoU: 0.2535
+--- [损失函数: ce_only] Epoch 149/200 ---
+Val Loss: 0.0414 | Defect IoU: 0.2633
+--- [损失函数: ce_only] Epoch 150/200 ---
+Val Loss: 0.0412 | Defect IoU: 0.2582
+--- [损失函数: ce_only] Epoch 151/200 ---
+Val Loss: 0.0432 | Defect IoU: 0.2827
+--- [损失函数: ce_only] Epoch 152/200 ---
+Val Loss: 0.0470 | Defect IoU: 0.2719
+--- [损失函数: ce_only] Epoch 153/200 ---
+Val Loss: 0.0490 | Defect IoU: 0.1810
+--- [损失函数: ce_only] Epoch 154/200 ---
+Val Loss: 0.0582 | Defect IoU: 0.2349
+--- [损失函数: ce_only] Epoch 155/200 ---
+Val Loss: 0.0450 | Defect IoU: 0.2132
+--- [损失函数: ce_only] Epoch 156/200 ---
+Val Loss: 0.0709 | Defect IoU: 0.1435
+--- [损失函数: ce_only] Epoch 157/200 ---
+Val Loss: 0.0640 | Defect IoU: 0.1996
+--- [损失函数: ce_only] Epoch 158/200 ---
+Val Loss: 0.0659 | Defect IoU: 0.2099
+--- [损失函数: ce_only] Epoch 159/200 ---
+Val Loss: 0.0470 | Defect IoU: 0.1956
+--- [损失函数: ce_only] Epoch 160/200 ---
+Val Loss: 0.0524 | Defect IoU: 0.2476
+--- [损失函数: ce_only] Epoch 161/200 ---
+Val Loss: 0.0428 | Defect IoU: 0.2379
+--- [损失函数: ce_only] Epoch 162/200 ---
+Val Loss: 0.0473 | Defect IoU: 0.2235
+--- [损失函数: ce_only] Epoch 163/200 ---
+Val Loss: 0.0440 | Defect IoU: 0.2714
+--- [损失函数: ce_only] Epoch 164/200 ---
+Val Loss: 0.0416 | Defect IoU: 0.2660
+--- [损失函数: ce_only] Epoch 165/200 ---
+Val Loss: 0.0448 | Defect IoU: 0.2055
+--- [损失函数: ce_only] Epoch 166/200 ---
+Val Loss: 0.0431 | Defect IoU: 0.2597
+--- [损失函数: ce_only] Epoch 167/200 ---
+Val Loss: 0.0453 | Defect IoU: 0.2459
+--- [损失函数: ce_only] Epoch 168/200 ---
+Val Loss: 0.0584 | Defect IoU: 0.2324
+--- [损失函数: ce_only] Epoch 169/200 ---
+Val Loss: 0.0478 | Defect IoU: 0.2150
+--- [损失函数: ce_only] Epoch 170/200 ---
+Val Loss: 0.0532 | Defect IoU: 0.2343
+--- [损失函数: ce_only] Epoch 171/200 ---
+Val Loss: 0.0545 | Defect IoU: 0.2346
+--- [损失函数: ce_only] Epoch 172/200 ---
+Val Loss: 0.0426 | Defect IoU: 0.2391
+--- [损失函数: ce_only] Epoch 173/200 ---
+Val Loss: 0.0509 | Defect IoU: 0.2455
+--- [损失函数: ce_only] Epoch 174/200 ---
+Val Loss: 0.0501 | Defect IoU: 0.2453
+--- [损失函数: ce_only] Epoch 175/200 ---
+Val Loss: 0.0486 | Defect IoU: 0.2076
+--- [损失函数: ce_only] Epoch 176/200 ---
+Val Loss: 0.0487 | Defect IoU: 0.2514
+--- [损失函数: ce_only] Epoch 177/200 ---
+Val Loss: 0.0493 | Defect IoU: 0.1938
+--- [损失函数: ce_only] Epoch 178/200 ---
+Val Loss: 0.0498 | Defect IoU: 0.2523
+--- [损失函数: ce_only] Epoch 179/200 ---
+Val Loss: 0.0561 | Defect IoU: 0.1584
+--- [损失函数: ce_only] Epoch 180/200 ---
+Val Loss: 0.0487 | Defect IoU: 0.1463
+--- [损失函数: ce_only] Epoch 181/200 ---
+Val Loss: 0.0666 | Defect IoU: 0.2407
+--- [损失函数: ce_only] Epoch 182/200 ---
+Val Loss: 0.0424 | Defect IoU: 0.2291
+--- [损失函数: ce_only] Epoch 183/200 ---
+Val Loss: 0.0438 | Defect IoU: 0.2291
+--- [损失函数: ce_only] Epoch 184/200 ---
+Val Loss: 0.0426 | Defect IoU: 0.2536
+--- [损失函数: ce_only] Epoch 185/200 ---
+Val Loss: 0.0443 | Defect IoU: 0.2244
+--- [损失函数: ce_only] Epoch 186/200 ---
+Val Loss: 0.0471 | Defect IoU: 0.2316
+--- [损失函数: ce_only] Epoch 187/200 ---
+Val Loss: 0.0428 | Defect IoU: 0.2111
+--- [损失函数: ce_only] Epoch 188/200 ---
+Val Loss: 0.0454 | Defect IoU: 0.2219
+--- [损失函数: ce_only] Epoch 189/200 ---
+Val Loss: 0.0463 | Defect IoU: 0.2425
+--- [损失函数: ce_only] Epoch 190/200 ---
+Val Loss: 0.0460 | Defect IoU: 0.2435
+--- [损失函数: ce_only] Epoch 191/200 ---
+Val Loss: 0.0533 | Defect IoU: 0.2184
+--- [损失函数: ce_only] Epoch 192/200 ---
+Val Loss: 0.0469 | Defect IoU: 0.2333
+--- [损失函数: ce_only] Epoch 193/200 ---
+Val Loss: 0.0455 | Defect IoU: 0.2136
+--- [损失函数: ce_only] Epoch 194/200 ---
+Val Loss: 0.0451 | Defect IoU: 0.2562
+--- [损失函数: ce_only] Epoch 195/200 ---
+Val Loss: 0.0468 | Defect IoU: 0.2214
+--- [损失函数: ce_only] Epoch 196/200 ---
+Val Loss: 0.0488 | Defect IoU: 0.2771
+--- [损失函数: ce_only] Epoch 197/200 ---
+Val Loss: 0.0513 | Defect IoU: 0.2451
+--- [损失函数: ce_only] Epoch 198/200 ---
+Val Loss: 0.0475 | Defect IoU: 0.2295
+--- [损失函数: ce_only] Epoch 199/200 ---
+Val Loss: 0.0499 | Defect IoU: 0.2170
+--- [损失函数: ce_only] Epoch 200/200 ---
+Val Loss: 0.0485 | Defect IoU: 0.2064
+--- 损失函数 'ce_only' 实验完成 ---
+
+
+==================================================
+        实验二：损失函数消融实验总结报告
+==================================================
+              损失函数   mIoU IoU (defect) IoU (normal) IoU (bg)
+CE Loss [Baseline] 67.59%       29.47%       74.79%   98.51%
+==================================================
+实验完成！以上表格可以直接用于撰写论文。
